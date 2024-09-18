@@ -1,11 +1,9 @@
 # Projeto: Modulo 8/15
 
-<div align="center">
+<div align="">
   <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white" alt="C#" />
   <img src="https://img.shields.io/badge/WindowsForms-0078D6?style=for-the-badge&logo=windows&logoColor=white" alt="Windows Forms" />
   <img src="https://img.shields.io/badge/Visual%20Studio%20-5C2D91?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="Visual Studio" />
-
-
 </div>
 
 ##  Descrição
