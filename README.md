@@ -19,7 +19,7 @@ Este é um projeto desenvolvido em **C#** utilizando **Windows Forms**. O objeti
 - Login e Password - Ficha 2
 - Fechar e aparecer mensagem - ficha 1
 
-## 🛠 Tecnologias Utilizadas
+##  Tecnologias Utilizadas
 
 - **Linguagem**: C#
 - **Plataforma**: Windows Forms
