@@ -1,4 +1,4 @@
-# 🖥️ Projeto: Modulo 8
+# Projeto: Modulo 8
 
 <div align="center">
   <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white" alt="C#" />
@@ -8,18 +8,18 @@
 
 </div>
 
-## 📋 Descrição
+##  Descrição
 
 Este é um projeto desenvolvido em **C#** utilizando **Windows Forms**. O objetivo do projeto é aprender a usar o forms no visual code. É voltado para a programação e aprendizado.
 
 ---
 
-## 🚀 Funcionalidades
+##  Funcionalidades
 
 - Login e Password - Ficha 2
 - Fechar e aparecer mensagem - ficha 1
 
-## 🛠️ Tecnologias Utilizadas
+## 🛠 Tecnologias Utilizadas
 
 - **Linguagem**: C#
 - **Plataforma**: Windows Forms
@@ -27,7 +27,7 @@ Este é um projeto desenvolvido em **C#** utilizando **Windows Forms**. O objeti
 
 ---
 
-## 📝 Instalação
+##  Instalação
 
 Siga os passos abaixo para configurar o projeto localmente:
 
@@ -36,7 +36,7 @@ Siga os passos abaixo para configurar o projeto localmente:
    git clone https://github.com/juliareboucasleite/11--PSI1.git
 
 ---
-## 🛠️ Contribuições
+##  Contribuições
 
 Sinta-se à vontade para contribuir com o projeto. Para isso, siga estas etapas:
 
