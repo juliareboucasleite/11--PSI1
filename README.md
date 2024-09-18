@@ -47,5 +47,5 @@ Sinta-se à vontade para contribuir com o projeto. Para isso, siga estas etapas:
 - Abra um pull request .
   
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=333333&height=120&section=footer&gradient=linear&gradientColors=333333,CCCCCC" alt="Footer Wave"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=141b23&height=120&section=footer"/>
 </div>
