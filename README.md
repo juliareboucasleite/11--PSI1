@@ -30,4 +30,4 @@ Siga os passos abaixo para configurar o projeto localmente:
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seu-usuario/nome-do-projeto.git
+   git clone https://github.com/juliareboucasleite/11--PSI1.git
