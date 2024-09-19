@@ -34,7 +34,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.Password = new System.Windows.Forms.TextBox();
             this.Username = new System.Windows.Forms.TextBox();
-            this.BotaoOk = new System.Windows.Forms.Button();
+            this.BotaoOK = new System.Windows.Forms.Button();
             this.BotaoCancelar = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -87,15 +87,15 @@
             this.Username.TabIndex = 4;
             this.Username.TextChanged += new System.EventHandler(this.Username_TextChanged);
             // 
-            // BotaoOk
+            // BotaoOK
             // 
-            this.BotaoOk.Location = new System.Drawing.Point(128, 148);
-            this.BotaoOk.Name = "BotaoOk";
-            this.BotaoOk.Size = new System.Drawing.Size(75, 23);
-            this.BotaoOk.TabIndex = 5;
-            this.BotaoOk.Text = "Ok";
-            this.BotaoOk.UseVisualStyleBackColor = true;
-            this.BotaoOk.Click += new System.EventHandler(this.BotaoOk_Click);
+            this.BotaoOK.Location = new System.Drawing.Point(128, 148);
+            this.BotaoOK.Name = "BotaoOK";
+            this.BotaoOK.Size = new System.Drawing.Size(75, 23);
+            this.BotaoOK.TabIndex = 5;
+            this.BotaoOK.Text = "OK";
+            this.BotaoOK.UseVisualStyleBackColor = true;
+            this.BotaoOK.Click += new System.EventHandler(this.BotaoOk_Click);
             // 
             // BotaoCancelar
             // 
@@ -110,13 +110,13 @@
             // 
             // Form1
             // 
-            this.AcceptButton = this.BotaoOk;
+            this.AcceptButton = this.BotaoOK;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.CancelButton = this.BotaoCancelar;
             this.ClientSize = new System.Drawing.Size(304, 183);
             this.Controls.Add(this.BotaoCancelar);
-            this.Controls.Add(this.BotaoOk);
+            this.Controls.Add(this.BotaoOK);
             this.Controls.Add(this.Username);
             this.Controls.Add(this.Password);
             this.Controls.Add(this.label3);
@@ -143,7 +143,7 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox Password;
         private System.Windows.Forms.TextBox Username;
-        private System.Windows.Forms.Button BotaoOk;
+        private System.Windows.Forms.Button BotaoOK;
         private System.Windows.Forms.Button BotaoCancelar;
     }
 }
