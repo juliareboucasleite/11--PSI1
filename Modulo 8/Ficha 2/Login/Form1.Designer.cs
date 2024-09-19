@@ -44,7 +44,7 @@
             this.label1.Location = new System.Drawing.Point(12, 59);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(61, 13);
-            this.label1.TabIndex = 0;
+            this.label1.TabIndex = 1;
             this.label1.Text = "Username:";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
@@ -55,7 +55,7 @@
             this.label2.Location = new System.Drawing.Point(119, 10);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(66, 30);
-            this.label2.TabIndex = 1;
+            this.label2.TabIndex = 0;
             this.label2.Text = "Login";
             this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
@@ -65,7 +65,7 @@
             this.label3.Location = new System.Drawing.Point(12, 96);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(59, 13);
-            this.label3.TabIndex = 2;
+            this.label3.TabIndex = 3;
             this.label3.Text = "Password:";
             // 
             // Password
@@ -75,7 +75,7 @@
             this.Password.Name = "Password";
             this.Password.PasswordChar = '*';
             this.Password.Size = new System.Drawing.Size(205, 22);
-            this.Password.TabIndex = 3;
+            this.Password.TabIndex = 4;
             this.Password.TextChanged += new System.EventHandler(this.Password_TextChanged);
             // 
             // Username
@@ -84,7 +84,7 @@
             this.Username.MaxLength = 30;
             this.Username.Name = "Username";
             this.Username.Size = new System.Drawing.Size(205, 22);
-            this.Username.TabIndex = 4;
+            this.Username.TabIndex = 2;
             this.Username.TextChanged += new System.EventHandler(this.Username_TextChanged);
             // 
             // BotaoOK
