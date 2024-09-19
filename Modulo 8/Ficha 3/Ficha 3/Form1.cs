@@ -27,45 +27,16 @@ namespace Ficha_3
         {
 
         }
-        /// <summary>
-        /// Caixa do Primeiro Nome
-        /// </summary>
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
 
-        }
-        /// <summary>
-        /// Caixa do Apelido
-        /// </summary>
-       
-        private void textBox2_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-        /// <summary>
-        /// Caixa do nome Completo
-        /// </summary>
-        
-        private void textBox3_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-        /// <summary>
-        /// Botao concatenar
-        /// </summary>
-        private void Concatenar_Click(object sender, EventArgs e)
-        {
-            
-        }
         /// <summary>
         /// Botao Limpar
         /// </summary>
          private void Limpar_Click(object sender, EventArgs e)
         {
             // Limpando os TextBox
-            textBox1.Text = "";
-            textBox2.Text = "";
-            textBox3.Text = "";
+            PrimeiroNome.Text = "";
+            Apelido.Text = "";
+            NomeCompleto.Text = "";
 
             
 
@@ -76,6 +47,11 @@ namespace Ficha_3
         private void Fechar_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void BotaoConcatenar_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show(NomeCompleto.Text = PrimeiroNome.Text + " " + Apelido.Text, "Nome Completto");
         }
     }
 }
