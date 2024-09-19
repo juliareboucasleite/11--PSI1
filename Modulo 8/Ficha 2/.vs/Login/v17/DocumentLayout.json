@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{25626ECC-A903-4F12-87AB-E284F97B169E}|Login\\Login.csproj|solutionrelative:login\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{25626ECC-A903-4F12-87AB-E284F97B169E}|Login\\Login.csproj|c:\\users\\julia\\documents\\programa\u00E7\u00E3o\\modulo 8\\ficha 2\\login\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{25626ECC-A903-4F12-87AB-E284F97B169E}|Login\\Login.csproj|C:\\Users\\Julia\\Documents\\Programa\u00E7\u00E3o\\Modulo 8\\Ficha 2\\login\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{25626ECC-A903-4F12-87AB-E284F97B169E}|Login\\Login.csproj|solutionrelative:login\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -18,8 +18,12 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
