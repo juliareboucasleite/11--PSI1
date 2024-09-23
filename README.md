@@ -17,7 +17,7 @@ Este é um projeto desenvolvido em **C#** utilizando **Windows Forms**. O objeti
 - Login e Password - Ficha 2
 - Fechar e aparecer mensagem - ficha 1
 - Juntar nomes - ficha 3
-- Registo de encomendas - ficha 4 
+- Registo de encomendas de uma pizzaria - ficha 4 
 
 ##  Tecnologias Utilizadas
 
