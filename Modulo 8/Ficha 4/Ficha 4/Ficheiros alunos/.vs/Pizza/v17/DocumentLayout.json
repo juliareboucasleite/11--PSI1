@@ -3,20 +3,35 @@
   "WorkspaceRootPath": "C:\\Users\\Julia\\Documents\\Programa\u00E7\u00E3o\\Modulo 8\\Ficha 4\\Ficha 4\\Ficheiros alunos\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{03ECCEED-5049-4D96-AB57-16D564FD351E}|Pizza\\Pizza.csproj|C:\\Users\\Julia\\Documents\\Programa\u00E7\u00E3o\\Modulo 8\\Ficha 4\\Ficha 4\\Ficheiros alunos\\pizza\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03ECCEED-5049-4D96-AB57-16D564FD351E}|Pizza\\Pizza.csproj|solutionrelative:pizza\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03ECCEED-5049-4D96-AB57-16D564FD351E}|Pizza\\Pizza.csproj|c:\\users\\julia\\documents\\programa\u00E7\u00E3o\\modulo 8\\ficha 4\\ficha 4\\ficheiros alunos\\pizza\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03ECCEED-5049-4D96-AB57-16D564FD351E}|Pizza\\Pizza.csproj|solutionrelative:pizza\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{03ECCEED-5049-4D96-AB57-16D564FD351E}|Pizza\\Pizza.csproj|c:\\users\\julia\\documents\\programa\u00E7\u00E3o\\modulo 8\\ficha 4\\ficha 4\\ficheiros alunos\\pizza\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{03ECCEED-5049-4D96-AB57-16D564FD351E}|Pizza\\Pizza.csproj|solutionrelative:pizza\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{03ECCEED-5049-4D96-AB57-16D564FD351E}|Pizza\\Pizza.csproj|c:\\users\\julia\\documents\\programa\u00E7\u00E3o\\modulo 8\\ficha 4\\ficha 4\\ficheiros alunos\\pizza\\encomenda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{03ECCEED-5049-4D96-AB57-16D564FD351E}|Pizza\\Pizza.csproj|solutionrelative:pizza\\encomenda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{03ECCEED-5049-4D96-AB57-16D564FD351E}|Pizza\\Pizza.csproj|c:\\users\\julia\\documents\\programa\u00E7\u00E3o\\modulo 8\\ficha 4\\ficha 4\\ficheiros alunos\\pizza\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{03ECCEED-5049-4D96-AB57-16D564FD351E}|Pizza\\Pizza.csproj|solutionrelative:pizza\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{03ECCEED-5049-4D96-AB57-16D564FD351E}|Pizza\\Pizza.csproj|c:\\users\\julia\\documents\\programa\u00E7\u00E3o\\modulo 8\\ficha 4\\ficha 4\\ficheiros alunos\\pizza\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{03ECCEED-5049-4D96-AB57-16D564FD351E}|Pizza\\Pizza.csproj|solutionrelative:pizza\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{03ECCEED-5049-4D96-AB57-16D564FD351E}|Pizza\\Pizza.csproj|C:\\Users\\Julia\\Documents\\Programa\u00E7\u00E3o\\Modulo 8\\Ficha 4\\Ficha 4\\Ficheiros alunos\\pizza\\encomenda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03ECCEED-5049-4D96-AB57-16D564FD351E}|Pizza\\Pizza.csproj|solutionrelative:pizza\\encomenda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{03ECCEED-5049-4D96-AB57-16D564FD351E}|Pizza\\Pizza.csproj|C:\\Users\\Julia\\Documents\\Programa\u00E7\u00E3o\\Modulo 8\\Ficha 4\\Ficha 4\\Ficheiros alunos\\pizza\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{03ECCEED-5049-4D96-AB57-16D564FD351E}|Pizza\\Pizza.csproj|solutionrelative:pizza\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|Pizza||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03ECCEED-5049-4D96-AB57-16D564FD351E}|Pizza\\Pizza.csproj|c:\\users\\julia\\documents\\programa\u00E7\u00E3o\\modulo 8\\ficha 4\\ficha 4\\ficheiros alunos\\pizza\\properties\\resources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{03ECCEED-5049-4D96-AB57-16D564FD351E}|Pizza\\Pizza.csproj|solutionrelative:pizza\\properties\\resources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +41,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,20 +49,58 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Julia\\Documents\\Programa\u00E7\u00E3o\\Modulo 8\\Ficha 4\\Ficha 4\\Ficheiros alunos\\Pizza\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "Pizza\\Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\Julia\\Documents\\Programa\u00E7\u00E3o\\Modulo 8\\Ficha 4\\Ficha 4\\Ficheiros alunos\\Pizza\\Form1.Designer.cs",
+              "RelativeToolTip": "Pizza\\Form1.Designer.cs",
+              "ViewState": "AgIAAPUAAAAAAAAAAAAWwAgBAABsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-23T19:40:40.82Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "app.config",
+              "DocumentMoniker": "C:\\Users\\Julia\\Documents\\Programa\u00E7\u00E3o\\Modulo 8\\Ficha 4\\Ficha 4\\Ficheiros alunos\\Pizza\\app.config",
+              "RelativeDocumentMoniker": "Pizza\\app.config",
+              "ToolTip": "C:\\Users\\Julia\\Documents\\Programa\u00E7\u00E3o\\Modulo 8\\Ficha 4\\Ficha 4\\Ficheiros alunos\\Pizza\\app.config",
+              "RelativeToolTip": "Pizza\\app.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-09-23T19:33:26.615Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Pizza",
+              "DocumentMoniker": "C:\\Users\\Julia\\Documents\\Programa\u00E7\u00E3o\\Modulo 8\\Ficha 4\\Ficha 4\\Ficheiros alunos\\Pizza\\Pizza.csproj",
+              "RelativeDocumentMoniker": "Pizza\\Pizza.csproj",
+              "ToolTip": "C:\\Users\\Julia\\Documents\\Programa\u00E7\u00E3o\\Modulo 8\\Ficha 4\\Ficha 4\\Ficheiros alunos\\Pizza\\Pizza.csproj",
+              "RelativeToolTip": "Pizza\\Pizza.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-09-23T18:18:41.712Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\Julia\\Documents\\Programa\u00E7\u00E3o\\Modulo 8\\Ficha 4\\Ficha 4\\Ficheiros alunos\\Pizza\\Form1.cs",
               "RelativeDocumentMoniker": "Pizza\\Form1.cs",
               "ToolTip": "C:\\Users\\Julia\\Documents\\Programa\u00E7\u00E3o\\Modulo 8\\Ficha 4\\Ficha 4\\Ficheiros alunos\\Pizza\\Form1.cs",
               "RelativeToolTip": "Pizza\\Form1.cs",
-              "ViewState": "AgIAADsAAAAAAAAAAAAAwEwAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAKUAAAAAAAAAAAAAALYAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-23T11:00:08.03Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Julia\\Documents\\Programa\u00E7\u00E3o\\Modulo 8\\Ficha 4\\Ficha 4\\Ficheiros alunos\\Pizza\\Form1.cs",
               "RelativeDocumentMoniker": "Pizza\\Form1.cs",
@@ -59,7 +112,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Encomenda.cs",
               "DocumentMoniker": "C:\\Users\\Julia\\Documents\\Programa\u00E7\u00E3o\\Modulo 8\\Ficha 4\\Ficha 4\\Ficheiros alunos\\Pizza\\Encomenda.cs",
               "RelativeDocumentMoniker": "Pizza\\Encomenda.cs",
@@ -72,7 +125,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Julia\\Documents\\Programa\u00E7\u00E3o\\Modulo 8\\Ficha 4\\Ficha 4\\Ficheiros alunos\\Pizza\\Program.cs",
               "RelativeDocumentMoniker": "Pizza\\Program.cs",
