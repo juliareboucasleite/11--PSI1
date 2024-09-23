@@ -94,6 +94,8 @@
             // 
             // Nome
             // 
+            this.Nome.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.Nome.Location = new System.Drawing.Point(96, 78);
             this.Nome.Name = "Nome";
             this.Nome.Size = new System.Drawing.Size(254, 20);
@@ -101,6 +103,8 @@
             // 
             // Morada
             // 
+            this.Morada.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.Morada.Location = new System.Drawing.Point(96, 110);
             this.Morada.Name = "Morada";
             this.Morada.Size = new System.Drawing.Size(254, 20);
@@ -108,6 +112,8 @@
             // 
             // Contacto
             // 
+            this.Contacto.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.Contacto.Location = new System.Drawing.Point(96, 139);
             this.Contacto.Name = "Contacto";
             this.Contacto.Size = new System.Drawing.Size(147, 20);
@@ -133,8 +139,10 @@
             // 
             // label6
             // 
+            this.label6.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(528, 149);
+            this.label6.Location = new System.Drawing.Point(528, 161);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(80, 13);
             this.label6.TabIndex = 19;
@@ -142,6 +150,8 @@
             // 
             // label7
             // 
+            this.label7.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.label7.AutoSize = true;
             this.label7.Location = new System.Drawing.Point(528, 85);
             this.label7.Name = "label7";
@@ -160,6 +170,8 @@
             // 
             // ListaPizza
             // 
+            this.ListaPizza.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.ListaPizza.FormattingEnabled = true;
             this.ListaPizza.Location = new System.Drawing.Point(20, 279);
             this.ListaPizza.Name = "ListaPizza";
@@ -169,6 +181,8 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.groupBox1.Controls.Add(this.BebidaSumoComGas);
             this.groupBox1.Controls.Add(this.BebidaSumoSemGas);
             this.groupBox1.Controls.Add(this.BebidaCocaCola);
@@ -189,6 +203,7 @@
             this.BebidaSumoComGas.TabIndex = 20;
             this.BebidaSumoComGas.Text = "Sumo de maçã (Com gás): €1,50";
             this.BebidaSumoComGas.UseVisualStyleBackColor = true;
+            this.BebidaSumoComGas.CheckedChanged += new System.EventHandler(this.BebidaSumoComGas_CheckedChanged_1);
             // 
             // BebidaSumoSemGas
             // 
@@ -199,6 +214,7 @@
             this.BebidaSumoSemGas.TabIndex = 20;
             this.BebidaSumoSemGas.Text = "Sumo de maçã (Sem gás): €1,50";
             this.BebidaSumoSemGas.UseVisualStyleBackColor = true;
+            this.BebidaSumoSemGas.CheckedChanged += new System.EventHandler(this.BebidaSumoSemGas_CheckedChanged_1);
             // 
             // BebidaCocaCola
             // 
@@ -224,6 +240,8 @@
             // 
             // groupBox2
             // 
+            this.groupBox2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.groupBox2.Controls.Add(this.EntregaCasa);
             this.groupBox2.Controls.Add(this.EntregaTakeAway);
             this.groupBox2.Location = new System.Drawing.Point(31, 482);
@@ -254,9 +272,12 @@
             this.EntregaTakeAway.TabStop = true;
             this.EntregaTakeAway.Text = "Take Away: €0";
             this.EntregaTakeAway.UseVisualStyleBackColor = true;
+            this.EntregaTakeAway.CheckedChanged += new System.EventHandler(this.EntregaTakeAway_CheckedChanged);
             // 
             // Entradas
             // 
+            this.Entradas.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.Entradas.FormattingEnabled = true;
             this.Entradas.Location = new System.Drawing.Point(96, 196);
             this.Entradas.Name = "Entradas";
@@ -266,6 +287,8 @@
             // 
             // QuantidadeEntrada
             // 
+            this.QuantidadeEntrada.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.QuantidadeEntrada.Location = new System.Drawing.Point(96, 224);
             this.QuantidadeEntrada.Name = "QuantidadeEntrada";
             this.QuantidadeEntrada.Size = new System.Drawing.Size(56, 20);
@@ -274,6 +297,8 @@
             // 
             // ImagemPizza
             // 
+            this.ImagemPizza.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.ImagemPizza.Location = new System.Drawing.Point(250, 279);
             this.ImagemPizza.Name = "ImagemPizza";
             this.ImagemPizza.Size = new System.Drawing.Size(100, 92);
@@ -282,24 +307,34 @@
             // 
             // LabelTotalComIva
             // 
+            this.LabelTotalComIva.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.LabelTotalComIva.AutoSize = true;
+            this.LabelTotalComIva.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LabelTotalComIva.ForeColor = System.Drawing.Color.Maroon;
             this.LabelTotalComIva.Location = new System.Drawing.Point(542, 174);
             this.LabelTotalComIva.Name = "LabelTotalComIva";
-            this.LabelTotalComIva.Size = new System.Drawing.Size(41, 13);
+            this.LabelTotalComIva.Size = new System.Drawing.Size(55, 16);
             this.LabelTotalComIva.TabIndex = 20;
-            this.LabelTotalComIva.Text = "label11";
+            this.LabelTotalComIva.Text = "Total €";
             // 
             // LabelTotalSemIva
             // 
+            this.LabelTotalSemIva.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.LabelTotalSemIva.AutoSize = true;
-            this.LabelTotalSemIva.Location = new System.Drawing.Point(542, 110);
+            this.LabelTotalSemIva.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LabelTotalSemIva.ForeColor = System.Drawing.Color.Green;
+            this.LabelTotalSemIva.Location = new System.Drawing.Point(542, 98);
             this.LabelTotalSemIva.Name = "LabelTotalSemIva";
-            this.LabelTotalSemIva.Size = new System.Drawing.Size(41, 13);
+            this.LabelTotalSemIva.Size = new System.Drawing.Size(55, 16);
             this.LabelTotalSemIva.TabIndex = 18;
-            this.LabelTotalSemIva.Text = "label12";
+            this.LabelTotalSemIva.Text = "Total €";
             // 
             // BotaoValidar
             // 
+            this.BotaoValidar.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.BotaoValidar.Location = new System.Drawing.Point(412, 563);
             this.BotaoValidar.Name = "BotaoValidar";
             this.BotaoValidar.Size = new System.Drawing.Size(75, 23);
@@ -310,6 +345,8 @@
             // 
             // BotaoAnular
             // 
+            this.BotaoAnular.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.BotaoAnular.Location = new System.Drawing.Point(508, 563);
             this.BotaoAnular.Name = "BotaoAnular";
             this.BotaoAnular.Size = new System.Drawing.Size(75, 23);
@@ -320,6 +357,9 @@
             // 
             // BotaoFechar
             // 
+            this.BotaoFechar.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.BotaoFechar.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.BotaoFechar.Location = new System.Drawing.Point(606, 563);
             this.BotaoFechar.Name = "BotaoFechar";
             this.BotaoFechar.Size = new System.Drawing.Size(75, 23);
@@ -330,6 +370,8 @@
             // 
             // label9
             // 
+            this.label9.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.Location = new System.Drawing.Point(307, 37);
@@ -340,6 +382,8 @@
             // 
             // label10
             // 
+            this.label10.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Brush Script MT", 27.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.ForeColor = System.Drawing.Color.Green;
@@ -348,10 +392,11 @@
             this.label10.Size = new System.Drawing.Size(130, 46);
             this.label10.TabIndex = 0;
             this.label10.Text = "Pizzaria";
-            this.label10.Click += new System.EventHandler(this.label10_Click);
             // 
             // label13
             // 
+            this.label13.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.label13.AutoSize = true;
             this.label13.Font = new System.Drawing.Font("Brush Script MT", 27.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label13.ForeColor = System.Drawing.Color.Maroon;
@@ -365,6 +410,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.CancelButton = this.BotaoFechar;
             this.ClientSize = new System.Drawing.Size(712, 596);
             this.Controls.Add(this.label13);
             this.Controls.Add(this.label10);

@@ -56,11 +56,6 @@ namespace Pizza
         }
         
        
-
-        private void label10_Click(object sender, EventArgs e)
-        {
-
-        }
         /// <summary>
         /// Mudança na quantidade de entradas selecionadas.
         /// </summary>
@@ -133,45 +128,8 @@ namespace Pizza
             encomendaCliente.BebidaCocaCola = BebidaCocaCola.Checked;
             AtualizarTotais();
         }
-        /// <summary>
-        /// Selecionar (ou não) sumo sem gás.
-        /// </summary>
-        private void BebidaSumoSemGas_CheckedChanged(object sender, EventArgs e)
-        {
-            encomendaCliente.BebidaSumoSemGas = BebidaSumoSemGas.Checked;
-            AtualizarTotais();
-        }
-        /// <summary>
-        /// Selecionar (ou não) sumo com gás.
-        /// </summary>
-        private void BebidaSumoComGas_CheckedChanged(object sender, EventArgs e)
-        {
-            encomendaCliente.BebidaSumoComGas = BebidaSumoComGas.Checked;
-            AtualizarTotais();
-        }
-        /// <summary>
-        /// Tipo de entrega: entrega take away.
-        /// </summary>
-        private void EntregaTakeAway_CheckedChanged(object sender, EventArgs e)
-        {
-            if (EntregaTakeAway.Checked)
-            {
-                encomendaCliente.Entrega = MetodoEntrega.TakeAway;
-                AtualizarTotais();
-            }
-        }
-        /// <summary>
-        /// Tipo de entrega: entrega em casa.
-        /// </summary>
-        /// 
-        private void EntregaCasa_CheckedChanged(object sender, EventArgs e)
-        {
-            if (EntregaCasa.Checked)
-            {
-                encomendaCliente.Entrega = MetodoEntrega.Casa;
-                AtualizarTotais();
-            }
-        }
+        
+       
         /// <summary>
         /// Validar a encomenda.
         /// </summary>
@@ -258,6 +216,36 @@ namespace Pizza
         private void BotaoFechar_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void BebidaSumoSemGas_CheckedChanged_1(object sender, EventArgs e)
+        {
+            encomendaCliente.BebidaSumoSemGas = BebidaSumoSemGas.Checked;
+            AtualizarTotais();
+        }
+
+        private void BebidaSumoComGas_CheckedChanged_1(object sender, EventArgs e)
+        {
+            encomendaCliente.BebidaSumoComGas = BebidaSumoComGas.Checked;
+            AtualizarTotais();
+        }
+
+        private void EntregaCasa_CheckedChanged_1(object sender, EventArgs e)
+        {
+            if (EntregaCasa.Checked)
+            {
+                encomendaCliente.Entrega = MetodoEntrega.Casa;
+                AtualizarTotais();
+            }
+        }
+
+        private void EntregaTakeAway_CheckedChanged(object sender, EventArgs e)
+        {
+            if (EntregaTakeAway.Checked)
+            {
+                encomendaCliente.Entrega = MetodoEntrega.TakeAway;
+                AtualizarTotais();
+            }
         }
     }
 }
