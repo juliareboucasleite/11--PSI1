@@ -3,7 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\Julia\\Documents\\Programa\u00E7\u00E3o\\Modulo 8\\Ficha 4\\Ficha 4\\Ficheiros alunos\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{03ECCEED-5049-4D96-AB57-16D564FD351E}|Pizza\\Pizza.csproj|C:\\Users\\Julia\\Documents\\Programa\u00E7\u00E3o\\Modulo 8\\Ficha 4\\Ficha 4\\Ficheiros alunos\\pizza\\encomenda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{03ECCEED-5049-4D96-AB57-16D564FD351E}|Pizza\\Pizza.csproj|c:\\users\\julia\\documents\\programa\u00E7\u00E3o\\modulo 8\\ficha 4\\ficha 4\\ficheiros alunos\\pizza\\encomenda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{03ECCEED-5049-4D96-AB57-16D564FD351E}|Pizza\\Pizza.csproj|solutionrelative:pizza\\encomenda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -11,7 +11,7 @@
       "RelativeMoniker": "D:0:0:{03ECCEED-5049-4D96-AB57-16D564FD351E}|Pizza\\Pizza.csproj|solutionrelative:pizza\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{03ECCEED-5049-4D96-AB57-16D564FD351E}|Pizza\\Pizza.csproj|c:\\users\\julia\\documents\\programa\u00E7\u00E3o\\modulo 8\\ficha 4\\ficha 4\\ficheiros alunos\\pizza\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{03ECCEED-5049-4D96-AB57-16D564FD351E}|Pizza\\Pizza.csproj|C:\\Users\\Julia\\Documents\\Programa\u00E7\u00E3o\\Modulo 8\\Ficha 4\\Ficha 4\\Ficheiros alunos\\pizza\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{03ECCEED-5049-4D96-AB57-16D564FD351E}|Pizza\\Pizza.csproj|solutionrelative:pizza\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -35,8 +35,7 @@
               "ViewState": "AgIAACwAAAAAAAAAAADgvz8AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-23T11:00:08.03Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -48,8 +47,7 @@
               "RelativeToolTip": "Pizza\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-23T10:54:26.215Z",
-              "IsPinned": true,
-              "EditorCaption": " [Design]"
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -59,7 +57,7 @@
               "RelativeDocumentMoniker": "Pizza\\Encomenda.cs",
               "ToolTip": "C:\\Users\\Julia\\Documents\\Programa\u00E7\u00E3o\\Modulo 8\\Ficha 4\\Ficha 4\\Ficheiros alunos\\Pizza\\Encomenda.cs",
               "RelativeToolTip": "Pizza\\Encomenda.cs",
-              "ViewState": "AgIAAFsAAAAAAAAAAAAQwGkAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAQwGkAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-23T10:52:59.97Z",
               "IsPinned": true,

@@ -103,7 +103,7 @@ namespace Pizza
                     TotalSemIva += 7;
                     break;
 
-                case TipoPizza.Vegetariana:
+                case TipoPizza.Vegetariana: 
                     TotalSemIva += 6.80M;
                     break;
             }
