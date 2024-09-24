@@ -230,20 +230,20 @@ namespace Pizza
             AtualizarTotais();
         }
 
-        private void EntregaCasa_CheckedChanged_1(object sender, EventArgs e)
-        {
-            if (EntregaCasa.Checked)
-            {
-                encomendaCliente.Entrega = MetodoEntrega.Casa;
-                AtualizarTotais();
-            }
-        }
-
         private void EntregaTakeAway_CheckedChanged(object sender, EventArgs e)
         {
             if (EntregaTakeAway.Checked)
             {
                 encomendaCliente.Entrega = MetodoEntrega.TakeAway;
+                AtualizarTotais();
+            }
+        }
+
+        private void EntregaCasa_CheckedChanged(object sender, EventArgs e)
+        {
+            if (EntregaCasa.Checked)
+            {
+                encomendaCliente.Entrega = MetodoEntrega.Casa;
                 AtualizarTotais();
             }
         }

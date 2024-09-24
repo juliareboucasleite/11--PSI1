@@ -261,6 +261,7 @@
             this.EntregaCasa.TabStop = true;
             this.EntregaCasa.Text = "Entrega Casa: €1";
             this.EntregaCasa.UseVisualStyleBackColor = true;
+            this.EntregaCasa.CheckedChanged += new System.EventHandler(this.EntregaCasa_CheckedChanged);
             // 
             // EntregaTakeAway
             // 
