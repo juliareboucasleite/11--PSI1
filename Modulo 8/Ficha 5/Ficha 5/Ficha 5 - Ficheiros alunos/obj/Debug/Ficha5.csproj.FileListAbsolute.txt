@@ -1,0 +1,20 @@
+D:\MEOCloud\Brotero 2022-2023\PSI\Módulo 8\Fichas de Trabalho\Ficha de Trabalho 5\Projeto Alunos\Ficha5\bin\Debug\Ficha5.exe.config
+D:\MEOCloud\Brotero 2022-2023\PSI\Módulo 8\Fichas de Trabalho\Ficha de Trabalho 5\Projeto Alunos\Ficha5\bin\Debug\Ficha5.exe
+D:\MEOCloud\Brotero 2022-2023\PSI\Módulo 8\Fichas de Trabalho\Ficha de Trabalho 5\Projeto Alunos\Ficha5\bin\Debug\Ficha5.pdb
+D:\MEOCloud\Brotero 2022-2023\PSI\Módulo 8\Fichas de Trabalho\Ficha de Trabalho 5\Projeto Alunos\Ficha5\obj\Debug\Ficha5.csproj.AssemblyReference.cache
+D:\MEOCloud\Brotero 2022-2023\PSI\Módulo 8\Fichas de Trabalho\Ficha de Trabalho 5\Projeto Alunos\Ficha5\obj\Debug\Ficha5.csproj.SuggestedBindingRedirects.cache
+D:\MEOCloud\Brotero 2022-2023\PSI\Módulo 8\Fichas de Trabalho\Ficha de Trabalho 5\Projeto Alunos\Ficha5\obj\Debug\Ficha5.Properties.Resources.resources
+D:\MEOCloud\Brotero 2022-2023\PSI\Módulo 8\Fichas de Trabalho\Ficha de Trabalho 5\Projeto Alunos\Ficha5\obj\Debug\Ficha5.csproj.GenerateResource.cache
+D:\MEOCloud\Brotero 2022-2023\PSI\Módulo 8\Fichas de Trabalho\Ficha de Trabalho 5\Projeto Alunos\Ficha5\obj\Debug\Ficha5.csproj.CoreCompileInputs.cache
+D:\MEOCloud\Brotero 2022-2023\PSI\Módulo 8\Fichas de Trabalho\Ficha de Trabalho 5\Projeto Alunos\Ficha5\obj\Debug\Ficha5.exe
+D:\MEOCloud\Brotero 2022-2023\PSI\Módulo 8\Fichas de Trabalho\Ficha de Trabalho 5\Projeto Alunos\Ficha5\obj\Debug\Ficha5.pdb
+C:\Users\Julia\Documents\Programação\Modulo 8\Ficha 5\Ficha 5\Ficha 5 - Ficheiros alunos\bin\Debug\Ficha5.exe.config
+C:\Users\Julia\Documents\Programação\Modulo 8\Ficha 5\Ficha 5\Ficha 5 - Ficheiros alunos\bin\Debug\Ficha5.exe
+C:\Users\Julia\Documents\Programação\Modulo 8\Ficha 5\Ficha 5\Ficha 5 - Ficheiros alunos\bin\Debug\Ficha5.pdb
+C:\Users\Julia\Documents\Programação\Modulo 8\Ficha 5\Ficha 5\Ficha 5 - Ficheiros alunos\obj\Debug\Ficha5.csproj.AssemblyReference.cache
+C:\Users\Julia\Documents\Programação\Modulo 8\Ficha 5\Ficha 5\Ficha 5 - Ficheiros alunos\obj\Debug\Ficha5.Properties.Resources.resources
+C:\Users\Julia\Documents\Programação\Modulo 8\Ficha 5\Ficha 5\Ficha 5 - Ficheiros alunos\obj\Debug\Ficha5.csproj.GenerateResource.cache
+C:\Users\Julia\Documents\Programação\Modulo 8\Ficha 5\Ficha 5\Ficha 5 - Ficheiros alunos\obj\Debug\Ficha5.csproj.CoreCompileInputs.cache
+C:\Users\Julia\Documents\Programação\Modulo 8\Ficha 5\Ficha 5\Ficha 5 - Ficheiros alunos\obj\Debug\Ficha5.exe
+C:\Users\Julia\Documents\Programação\Modulo 8\Ficha 5\Ficha 5\Ficha 5 - Ficheiros alunos\obj\Debug\Ficha5.pdb
+C:\Users\Julia\Documents\Programação\Modulo 8\Ficha 5\Ficha 5\Ficha 5 - Ficheiros alunos\obj\Debug\Ficha5.FormPrincipal.resources
