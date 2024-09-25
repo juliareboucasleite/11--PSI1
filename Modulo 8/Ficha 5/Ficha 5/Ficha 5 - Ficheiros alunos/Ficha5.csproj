@@ -53,6 +53,12 @@
     <Compile Include="FormAcerca.Designer.cs">
       <DependentUpon>FormAcerca.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormMarcacaoConsulta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMarcacaoConsulta.Designer.cs">
+      <DependentUpon>FormMarcacaoConsulta.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormPrincipal.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -67,6 +73,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="FormAcerca.resx">
       <DependentUpon>FormAcerca.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMarcacaoConsulta.resx">
+      <DependentUpon>FormMarcacaoConsulta.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormPrincipal.resx">
       <DependentUpon>FormPrincipal.cs</DependentUpon>

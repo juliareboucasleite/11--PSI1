@@ -90,8 +90,7 @@ namespace Ficha5
             // Mostrar a janela de marcação de consulta e verificar o resultado
             if (frmMarcacaoConsulta.ShowDialog() == DialogResult.OK)
             {
-                // Refrescar os dados na lista de marcações: acrescentar a última marcação
-                efetuada
+                // Refrescar os dados na lista de marcações: acrescentar a última marcação efetuada
                 Marcacao m = Program.marcacoesConsultas.DadosUltimaMarcacao();
                 ListViewItem item = new ListViewItem(new string[] {m.DataHora.ToShortDateString(), m.DataHora.ToShortTimeString(), m.Paciente,m.Medico, m.Subsistema });
                 ListaMarcacoes.Items.Add(item);
