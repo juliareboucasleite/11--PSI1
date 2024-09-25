@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\Julia\\Documents\\Programa\u00E7\u00E3o\\Modulo 8\\Ficha 5\\Ficha 5\\Ficha 5 - Ficheiros alunos\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{31FA1C30-D24B-4F17-BDC1-63EED0F4E580}|Ficha5.csproj|C:\\Users\\Julia\\Documents\\Programa\u00E7\u00E3o\\Modulo 8\\Ficha 5\\Ficha 5\\Ficha 5 - Ficheiros alunos\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{31FA1C30-D24B-4F17-BDC1-63EED0F4E580}|Ficha5.csproj|solutionrelative:formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{31FA1C30-D24B-4F17-BDC1-63EED0F4E580}|Ficha5.csproj|c:\\users\\julia\\documents\\programa\u00E7\u00E3o\\modulo 8\\ficha 5\\ficha 5\\ficha 5 - ficheiros alunos\\cancelarconsulta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{31FA1C30-D24B-4F17-BDC1-63EED0F4E580}|Ficha5.csproj|solutionrelative:cancelarconsulta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{31FA1C30-D24B-4F17-BDC1-63EED0F4E580}|Ficha5.csproj|C:\\Users\\Julia\\Documents\\Programa\u00E7\u00E3o\\Modulo 8\\Ficha 5\\Ficha 5\\Ficha 5 - Ficheiros alunos\\formmarcacaoconsulta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{31FA1C30-D24B-4F17-BDC1-63EED0F4E580}|Ficha5.csproj|solutionrelative:formmarcacaoconsulta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{31FA1C30-D24B-4F17-BDC1-63EED0F4E580}|Ficha5.csproj|C:\\Users\\Julia\\Documents\\Programa\u00E7\u00E3o\\Modulo 8\\Ficha 5\\Ficha 5\\Ficha 5 - Ficheiros alunos\\formacerca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{31FA1C30-D24B-4F17-BDC1-63EED0F4E580}|Ficha5.csproj|solutionrelative:formacerca.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{31FA1C30-D24B-4F17-BDC1-63EED0F4E580}|Ficha5.csproj|c:\\users\\julia\\documents\\programa\u00E7\u00E3o\\modulo 8\\ficha 5\\ficha 5\\ficha 5 - ficheiros alunos\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{31FA1C30-D24B-4F17-BDC1-63EED0F4E580}|Ficha5.csproj|solutionrelative:formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{31FA1C30-D24B-4F17-BDC1-63EED0F4E580}|Ficha5.csproj|c:\\users\\julia\\documents\\programa\u00E7\u00E3o\\modulo 8\\ficha 5\\ficha 5\\ficha 5 - ficheiros alunos\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{31FA1C30-D24B-4F17-BDC1-63EED0F4E580}|Ficha5.csproj|solutionrelative:formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{31FA1C30-D24B-4F17-BDC1-63EED0F4E580}|Ficha5.csproj|C:\\Users\\Julia\\Documents\\Programa\u00E7\u00E3o\\Modulo 8\\Ficha 5\\Ficha 5\\Ficha 5 - Ficheiros alunos\\formmarcacaoconsulta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{31FA1C30-D24B-4F17-BDC1-63EED0F4E580}|Ficha5.csproj|solutionrelative:formmarcacaoconsulta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{31FA1C30-D24B-4F17-BDC1-63EED0F4E580}|Ficha5.csproj|C:\\Users\\Julia\\Documents\\Programa\u00E7\u00E3o\\Modulo 8\\Ficha 5\\Ficha 5\\Ficha 5 - Ficheiros alunos\\formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{31FA1C30-D24B-4F17-BDC1-63EED0F4E580}|Ficha5.csproj|solutionrelative:formprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{31FA1C30-D24B-4F17-BDC1-63EED0F4E580}|Ficha5.csproj|C:\\Users\\Julia\\Documents\\Programa\u00E7\u00E3o\\Modulo 8\\Ficha 5\\Ficha 5\\Ficha 5 - Ficheiros alunos\\formmarcacaoconsulta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,17 +38,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "FormPrincipal.cs",
               "DocumentMoniker": "C:\\Users\\Julia\\Documents\\Programa\u00E7\u00E3o\\Modulo 8\\Ficha 5\\Ficha 5\\Ficha 5 - Ficheiros alunos\\FormPrincipal.cs",
               "RelativeDocumentMoniker": "FormPrincipal.cs",
-              "ToolTip": "C:\\Users\\Julia\\Documents\\Programa\u00E7\u00E3o\\Modulo 8\\Ficha 5\\Ficha 5\\Ficha 5 - Ficheiros alunos\\FormPrincipal.cs*",
-              "RelativeToolTip": "FormPrincipal.cs*",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAMwBUAAABDAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\Julia\\Documents\\Programa\u00E7\u00E3o\\Modulo 8\\Ficha 5\\Ficha 5\\Ficha 5 - Ficheiros alunos\\FormPrincipal.cs",
+              "RelativeToolTip": "FormPrincipal.cs",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAIwDAAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-25T10:54:28.477Z",
               "IsPinned": true,
@@ -52,7 +56,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "FormAcerca.cs",
               "DocumentMoniker": "C:\\Users\\Julia\\Documents\\Programa\u00E7\u00E3o\\Modulo 8\\Ficha 5\\Ficha 5\\Ficha 5 - Ficheiros alunos\\FormAcerca.cs",
               "RelativeDocumentMoniker": "FormAcerca.cs",
@@ -66,7 +70,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "FormMarcacaoConsulta.cs",
               "DocumentMoniker": "C:\\Users\\Julia\\Documents\\Programa\u00E7\u00E3o\\Modulo 8\\Ficha 5\\Ficha 5\\Ficha 5 - Ficheiros alunos\\FormMarcacaoConsulta.cs",
               "RelativeDocumentMoniker": "FormMarcacaoConsulta.cs",
@@ -79,24 +83,36 @@
               "EditorCaption": ""
             },
             {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CancelarConsulta.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Julia\\Documents\\Programa\u00E7\u00E3o\\Modulo 8\\Ficha 5\\Ficha 5\\Ficha 5 - Ficheiros alunos\\CancelarConsulta.cs",
+              "RelativeDocumentMoniker": "CancelarConsulta.cs",
+              "ToolTip": "C:\\Users\\Julia\\Documents\\Programa\u00E7\u00E3o\\Modulo 8\\Ficha 5\\Ficha 5\\Ficha 5 - Ficheiros alunos\\CancelarConsulta.cs [Design]",
+              "RelativeToolTip": "CancelarConsulta.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-25T17:15:52.682Z",
+              "EditorCaption": " [Design]"
+            },
+            {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "FormPrincipal.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Julia\\Documents\\Programa\u00E7\u00E3o\\Modulo 8\\Ficha 5\\Ficha 5\\Ficha 5 - Ficheiros alunos\\FormPrincipal.cs",
               "RelativeDocumentMoniker": "FormPrincipal.cs",
-              "ToolTip": "C:\\Users\\Julia\\Documents\\Programa\u00E7\u00E3o\\Modulo 8\\Ficha 5\\Ficha 5\\Ficha 5 - Ficheiros alunos\\FormPrincipal.cs [Design]*",
-              "RelativeToolTip": "FormPrincipal.cs [Design]*",
+              "ToolTip": "C:\\Users\\Julia\\Documents\\Programa\u00E7\u00E3o\\Modulo 8\\Ficha 5\\Ficha 5\\Ficha 5 - Ficheiros alunos\\FormPrincipal.cs [Design]",
+              "RelativeToolTip": "FormPrincipal.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-25T10:54:26.657Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "FormMarcacaoConsulta.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Julia\\Documents\\Programa\u00E7\u00E3o\\Modulo 8\\Ficha 5\\Ficha 5\\Ficha 5 - Ficheiros alunos\\FormMarcacaoConsulta.cs",
               "RelativeDocumentMoniker": "FormMarcacaoConsulta.cs",
@@ -108,7 +124,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "FormAcerca.cs [Design]",
               "DocumentMoniker": "C:\\Users\\Julia\\Documents\\Programa\u00E7\u00E3o\\Modulo 8\\Ficha 5\\Ficha 5\\Ficha 5 - Ficheiros alunos\\FormAcerca.cs",
               "RelativeDocumentMoniker": "FormAcerca.cs",

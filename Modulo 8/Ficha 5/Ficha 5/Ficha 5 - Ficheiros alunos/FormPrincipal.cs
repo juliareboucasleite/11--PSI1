@@ -18,12 +18,35 @@ namespace Ficha5
             // A janela deverá surgir no centro do ecrã
             this.StartPosition = FormStartPosition.CenterScreen;
 
+            
+            MenuStrip menuStrip = new MenuStrip();
+
+            // Criando os itens de menu
+            ToolStripMenuItem ficheiroMenuItem = new ToolStripMenuItem("Ficheiro");
+            ToolStripMenuItem consultasMenuItem = new ToolStripMenuItem("Consultas");
+            ToolStripMenuItem ajudaMenuItem = new ToolStripMenuItem("Ajuda");
+
+            // Adicionando os itens ao MenuStrip
+            menuStrip.Items.Add(ficheiroMenuItem);
+            menuStrip.Items.Add(consultasMenuItem);
+            menuStrip.Items.Add(ajudaMenuItem);
+
+            // Adicionando o MenuStrip ao formulário
+            this.Controls.Add(menuStrip);
+
+            // Definindo o MenuStrip como o menu principal do formulário
+            this.MainMenuStrip = menuStrip;
+
+            // Exemplo de como adicionar uma opção "Sair" no menu "Ficheiro"
+            ToolStripMenuItem sairMenuItem = new ToolStripMenuItem("Sair");
+            ficheiroMenuItem.DropDownItems.Add(sairMenuItem);
+
+            // Definir ação para o item "Sair"
+            sairMenuItem.Click += (sender, e) => { Application.Exit(); };
+
         }
 
-        private void menuStrip2_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
-        {
-
-        }
+        
 
         private void FormPrincipal_Load(object sender, EventArgs e)
         {
