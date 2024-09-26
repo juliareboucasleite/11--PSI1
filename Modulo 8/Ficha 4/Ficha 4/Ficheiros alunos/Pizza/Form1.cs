@@ -177,7 +177,7 @@ namespace Pizza
             QuantidadeEntrada.Value = 0;
 
             // Pizza
-            ListaPizza.SelectedIndex = -1;
+            ListaPizza.SelectedIndex = 0;
 
             // Bebidas
             BebidaAgua.Checked = false;
@@ -215,7 +215,7 @@ namespace Pizza
         /// </summary>
         private void BotaoFechar_Click(object sender, EventArgs e)
         {
-            this.Close();
+            System.Environment.Exit(0);
         }
 
         private void BebidaSumoSemGas_CheckedChanged_1(object sender, EventArgs e)

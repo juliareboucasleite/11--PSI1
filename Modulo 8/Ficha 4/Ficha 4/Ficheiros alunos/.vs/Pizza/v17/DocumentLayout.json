@@ -32,7 +32,7 @@
               "RelativeDocumentMoniker": "Pizza\\Form1.cs",
               "ToolTip": "C:\\Users\\Julia\\Documents\\Programa\u00E7\u00E3o\\Modulo 8\\Ficha 4\\Ficha 4\\Ficheiros alunos\\Pizza\\Form1.cs",
               "RelativeToolTip": "Pizza\\Form1.cs",
-              "ViewState": "AgIAAH4AAAAAAAAAAAAewD8AAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAALgAAAAAAAAAAAAvwNEAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-23T11:00:08.03Z",
               "IsPinned": true,
@@ -48,7 +48,8 @@
               "RelativeToolTip": "Pizza\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-23T10:54:26.215Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",

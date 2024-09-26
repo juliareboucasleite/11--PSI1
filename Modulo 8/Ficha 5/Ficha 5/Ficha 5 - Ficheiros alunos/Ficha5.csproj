@@ -77,6 +77,9 @@
     <Compile Include="Pacientes.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="CancelarConsulta.resx">
+      <DependentUpon>CancelarConsulta.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormAcerca.resx">
       <DependentUpon>FormAcerca.cs</DependentUpon>
     </EmbeddedResource>

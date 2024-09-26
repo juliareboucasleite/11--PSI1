@@ -63,29 +63,9 @@ namespace Ficha5.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
         /// </summary>
-        internal static System.Drawing.Icon AddFile16 {
-            get {
-                object obj = ResourceManager.GetObject("AddFile16", resourceCulture);
-                return ((System.Drawing.Icon)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
-        /// </summary>
         internal static System.Drawing.Icon Icon16 {
             get {
                 object obj = ResourceManager.GetObject("Icon16", resourceCulture);
-                return ((System.Drawing.Icon)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
-        /// </summary>
-        internal static System.Drawing.Icon icons8_adicionar_arquivo_16 {
-            get {
-                object obj = ResourceManager.GetObject("icons8_adicionar_arquivo_16", resourceCulture);
                 return ((System.Drawing.Icon)(obj));
             }
         }

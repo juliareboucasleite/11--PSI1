@@ -41,7 +41,7 @@
             this.label1.BackColor = System.Drawing.Color.LightSteelBlue;
             this.label1.Location = new System.Drawing.Point(0, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(598, 101);
+            this.label1.Size = new System.Drawing.Size(482, 101);
             this.label1.TabIndex = 0;
             // 
             // label2

@@ -40,6 +40,7 @@
             this.acercaDaAplicaçãoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.menuStrip2 = new System.Windows.Forms.MenuStrip();
+            this.cancelarConsultaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.toolStrip1.SuspendLayout();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -51,7 +52,7 @@
             this.toolStripButton1});
             this.toolStrip1.Location = new System.Drawing.Point(0, 24);
             this.toolStrip1.Name = "toolStrip1";
-            this.toolStrip1.Size = new System.Drawing.Size(66, 25);
+            this.toolStrip1.Size = new System.Drawing.Size(35, 25);
             this.toolStrip1.TabIndex = 2;
             this.toolStrip1.Text = "Nova Consulta";
             // 
@@ -96,7 +97,8 @@
             // 
             this.consultasToolStripMenuItem.BackColor = System.Drawing.SystemColors.InactiveBorder;
             this.consultasToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.novaConsultaToolStripMenuItem});
+            this.novaConsultaToolStripMenuItem,
+            this.cancelarConsultaToolStripMenuItem});
             this.consultasToolStripMenuItem.Name = "consultasToolStripMenuItem";
             this.consultasToolStripMenuItem.Size = new System.Drawing.Size(71, 20);
             this.consultasToolStripMenuItem.Text = "&Consultas";
@@ -134,7 +136,7 @@
             this.ajudaToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(195, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(315, 24);
             this.menuStrip1.TabIndex = 1;
             this.menuStrip1.Text = "menuStrip2";
             // 
@@ -146,6 +148,13 @@
             this.menuStrip2.Size = new System.Drawing.Size(596, 24);
             this.menuStrip2.TabIndex = 4;
             this.menuStrip2.Text = "menuStrip2";
+            // 
+            // cancelarConsultaToolStripMenuItem
+            // 
+            this.cancelarConsultaToolStripMenuItem.Name = "cancelarConsultaToolStripMenuItem";
+            this.cancelarConsultaToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.cancelarConsultaToolStripMenuItem.Text = "&Cancelar Consulta..";
+            this.cancelarConsultaToolStripMenuItem.Click += new System.EventHandler(this.cancelarConsultaToolStripMenuItem_Click);
             // 
             // FormPrincipal
             // 
@@ -182,6 +191,7 @@
         private System.Windows.Forms.ToolStripMenuItem acercaDaAplicaçãoToolStripMenuItem;
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.MenuStrip menuStrip2;
+        private System.Windows.Forms.ToolStripMenuItem cancelarConsultaToolStripMenuItem;
     }
 }
 

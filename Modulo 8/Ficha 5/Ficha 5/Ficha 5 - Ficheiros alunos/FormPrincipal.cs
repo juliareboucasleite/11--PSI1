@@ -120,5 +120,15 @@ namespace Ficha5
             }
             frmMarcacaoConsulta.Dispose();
         }
+
+        private void cancelarConsultaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            CancelarConsulta();
+        }
+
+        private void CancelarConsulta()
+        {
+
+        }
     }
 }
