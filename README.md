@@ -13,7 +13,7 @@ Este é um projeto desenvolvido em **C#** utilizando **Windows Forms**. O objeti
 ---
 
 ##  Funcionalidades
-
+- Modulo 8:
 - Login e Password - Ficha 2
 - Fechar e aparecer mensagem - ficha 1
 - Juntar nomes - ficha 3
