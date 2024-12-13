@@ -1,0 +1,10 @@
+C:\Users\Julia\Documents\Programação\Modulo 8\Ficha 1\Ficha 1\bin\Debug\Ficha 1.exe.config
+C:\Users\Julia\Documents\Programação\Modulo 8\Ficha 1\Ficha 1\bin\Debug\Ficha 1.exe
+C:\Users\Julia\Documents\Programação\Modulo 8\Ficha 1\Ficha 1\bin\Debug\Ficha 1.pdb
+C:\Users\Julia\Documents\Programação\Modulo 8\Ficha 1\Ficha 1\obj\Debug\Ficha 1.csproj.AssemblyReference.cache
+C:\Users\Julia\Documents\Programação\Modulo 8\Ficha 1\Ficha 1\obj\Debug\Ficha_1.Form1.resources
+C:\Users\Julia\Documents\Programação\Modulo 8\Ficha 1\Ficha 1\obj\Debug\Ficha_1.Properties.Resources.resources
+C:\Users\Julia\Documents\Programação\Modulo 8\Ficha 1\Ficha 1\obj\Debug\Ficha 1.csproj.GenerateResource.cache
+C:\Users\Julia\Documents\Programação\Modulo 8\Ficha 1\Ficha 1\obj\Debug\Ficha 1.csproj.CoreCompileInputs.cache
+C:\Users\Julia\Documents\Programação\Modulo 8\Ficha 1\Ficha 1\obj\Debug\Ficha 1.exe
+C:\Users\Julia\Documents\Programação\Modulo 8\Ficha 1\Ficha 1\obj\Debug\Ficha 1.pdb

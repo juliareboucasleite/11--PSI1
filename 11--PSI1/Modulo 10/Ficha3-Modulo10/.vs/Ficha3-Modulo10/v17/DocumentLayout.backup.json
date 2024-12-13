@@ -1,0 +1,92 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Reboucas\\Documents\\Programa\u00E7\u00E3o\\Modulo 10\\Ficha3-Modulo10\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9E5B135C-BA41-40D4-95EC-899875A55D3E}|Ficha3-Modulo10\\Ficha3-Modulo10.csproj|c:\\users\\reboucas\\documents\\programa\u00E7\u00E3o\\modulo 10\\ficha3-modulo10\\ficha3-modulo10\\forma.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E5B135C-BA41-40D4-95EC-899875A55D3E}|Ficha3-Modulo10\\Ficha3-Modulo10.csproj|solutionrelative:ficha3-modulo10\\forma.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E5B135C-BA41-40D4-95EC-899875A55D3E}|Ficha3-Modulo10\\Ficha3-Modulo10.csproj|c:\\users\\reboucas\\documents\\programa\u00E7\u00E3o\\modulo 10\\ficha3-modulo10\\ficha3-modulo10\\circulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E5B135C-BA41-40D4-95EC-899875A55D3E}|Ficha3-Modulo10\\Ficha3-Modulo10.csproj|solutionrelative:ficha3-modulo10\\circulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E5B135C-BA41-40D4-95EC-899875A55D3E}|Ficha3-Modulo10\\Ficha3-Modulo10.csproj|c:\\users\\reboucas\\documents\\programa\u00E7\u00E3o\\modulo 10\\ficha3-modulo10\\ficha3-modulo10\\rectangulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E5B135C-BA41-40D4-95EC-899875A55D3E}|Ficha3-Modulo10\\Ficha3-Modulo10.csproj|solutionrelative:ficha3-modulo10\\rectangulo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9E5B135C-BA41-40D4-95EC-899875A55D3E}|Ficha3-Modulo10\\Ficha3-Modulo10.csproj|c:\\users\\reboucas\\documents\\programa\u00E7\u00E3o\\modulo 10\\ficha3-modulo10\\ficha3-modulo10\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9E5B135C-BA41-40D4-95EC-899875A55D3E}|Ficha3-Modulo10\\Ficha3-Modulo10.csproj|solutionrelative:ficha3-modulo10\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Forma.cs",
+              "DocumentMoniker": "C:\\Users\\Reboucas\\Documents\\Programa\u00E7\u00E3o\\Modulo 10\\Ficha3-Modulo10\\Ficha3-Modulo10\\Forma.cs",
+              "RelativeDocumentMoniker": "Ficha3-Modulo10\\Forma.cs",
+              "ToolTip": "C:\\Users\\Reboucas\\Documents\\Programa\u00E7\u00E3o\\Modulo 10\\Ficha3-Modulo10\\Ficha3-Modulo10\\Forma.cs",
+              "RelativeToolTip": "Ficha3-Modulo10\\Forma.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T09:53:43.141Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Rectangulo.cs",
+              "DocumentMoniker": "C:\\Users\\Reboucas\\Documents\\Programa\u00E7\u00E3o\\Modulo 10\\Ficha3-Modulo10\\Ficha3-Modulo10\\Rectangulo.cs",
+              "RelativeDocumentMoniker": "Ficha3-Modulo10\\Rectangulo.cs",
+              "ToolTip": "C:\\Users\\Reboucas\\Documents\\Programa\u00E7\u00E3o\\Modulo 10\\Ficha3-Modulo10\\Ficha3-Modulo10\\Rectangulo.cs",
+              "RelativeToolTip": "Ficha3-Modulo10\\Rectangulo.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T09:47:08.737Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Circulo.cs",
+              "DocumentMoniker": "C:\\Users\\Reboucas\\Documents\\Programa\u00E7\u00E3o\\Modulo 10\\Ficha3-Modulo10\\Ficha3-Modulo10\\Circulo.cs",
+              "RelativeDocumentMoniker": "Ficha3-Modulo10\\Circulo.cs",
+              "ToolTip": "C:\\Users\\Reboucas\\Documents\\Programa\u00E7\u00E3o\\Modulo 10\\Ficha3-Modulo10\\Ficha3-Modulo10\\Circulo.cs",
+              "RelativeToolTip": "Ficha3-Modulo10\\Circulo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T09:46:51.755Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Reboucas\\Documents\\Programa\u00E7\u00E3o\\Modulo 10\\Ficha3-Modulo10\\Ficha3-Modulo10\\Program.cs",
+              "RelativeDocumentMoniker": "Ficha3-Modulo10\\Program.cs",
+              "ToolTip": "C:\\Users\\Reboucas\\Documents\\Programa\u00E7\u00E3o\\Modulo 10\\Ficha3-Modulo10\\Ficha3-Modulo10\\Program.cs",
+              "RelativeToolTip": "Ficha3-Modulo10\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-19T09:33:18.284Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

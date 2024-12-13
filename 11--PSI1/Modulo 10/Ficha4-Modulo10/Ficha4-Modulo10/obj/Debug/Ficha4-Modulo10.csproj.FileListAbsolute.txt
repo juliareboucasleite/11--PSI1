@@ -1,0 +1,7 @@
+C:\Users\Reboucas\Documents\Programação\Modulo 10\Ficha4-Modulo10\Ficha4-Modulo10\bin\Debug\Ficha4-Modulo10.exe.config
+C:\Users\Reboucas\Documents\Programação\Modulo 10\Ficha4-Modulo10\Ficha4-Modulo10\bin\Debug\Ficha4-Modulo10.exe
+C:\Users\Reboucas\Documents\Programação\Modulo 10\Ficha4-Modulo10\Ficha4-Modulo10\bin\Debug\Ficha4-Modulo10.pdb
+C:\Users\Reboucas\Documents\Programação\Modulo 10\Ficha4-Modulo10\Ficha4-Modulo10\obj\Debug\Ficha4-Modulo10.csproj.AssemblyReference.cache
+C:\Users\Reboucas\Documents\Programação\Modulo 10\Ficha4-Modulo10\Ficha4-Modulo10\obj\Debug\Ficha4-Modulo10.csproj.CoreCompileInputs.cache
+C:\Users\Reboucas\Documents\Programação\Modulo 10\Ficha4-Modulo10\Ficha4-Modulo10\obj\Debug\Ficha4-Modulo10.exe
+C:\Users\Reboucas\Documents\Programação\Modulo 10\Ficha4-Modulo10\Ficha4-Modulo10\obj\Debug\Ficha4-Modulo10.pdb

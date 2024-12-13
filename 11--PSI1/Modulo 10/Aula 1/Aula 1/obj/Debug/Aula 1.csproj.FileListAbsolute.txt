@@ -1,0 +1,2 @@
+C:\Users\Reboucas\Documents\Programação\Modulo 10\Aula 1\Aula 1\obj\Debug\Aula 1.csproj.AssemblyReference.cache
+C:\Users\Reboucas\Documents\Programação\Modulo 10\Aula 1\Aula 1\obj\Debug\Aula 1.csproj.CoreCompileInputs.cache

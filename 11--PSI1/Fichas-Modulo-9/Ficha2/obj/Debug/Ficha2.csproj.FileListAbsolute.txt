@@ -1,0 +1,7 @@
+C:\Users\Reboucas\source\repos\Fichas-Modulo-9\Ficha2\bin\Debug\Ficha2.exe.config
+C:\Users\Reboucas\source\repos\Fichas-Modulo-9\Ficha2\bin\Debug\Ficha2.exe
+C:\Users\Reboucas\source\repos\Fichas-Modulo-9\Ficha2\bin\Debug\Ficha2.pdb
+C:\Users\Reboucas\source\repos\Fichas-Modulo-9\Ficha2\obj\Debug\Ficha2.csproj.AssemblyReference.cache
+C:\Users\Reboucas\source\repos\Fichas-Modulo-9\Ficha2\obj\Debug\Ficha2.csproj.CoreCompileInputs.cache
+C:\Users\Reboucas\source\repos\Fichas-Modulo-9\Ficha2\obj\Debug\Ficha2.exe
+C:\Users\Reboucas\source\repos\Fichas-Modulo-9\Ficha2\obj\Debug\Ficha2.pdb

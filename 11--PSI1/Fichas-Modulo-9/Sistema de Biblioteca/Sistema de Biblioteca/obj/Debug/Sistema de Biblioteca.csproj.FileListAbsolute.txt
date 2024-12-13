@@ -1,0 +1,7 @@
+C:\Users\Reboucas\Documents\Programação\Modulo 9\Fichas-Modulo-9\Sistema de Biblioteca\Sistema de Biblioteca\bin\Debug\Sistema de Biblioteca.exe.config
+C:\Users\Reboucas\Documents\Programação\Modulo 9\Fichas-Modulo-9\Sistema de Biblioteca\Sistema de Biblioteca\bin\Debug\Sistema de Biblioteca.exe
+C:\Users\Reboucas\Documents\Programação\Modulo 9\Fichas-Modulo-9\Sistema de Biblioteca\Sistema de Biblioteca\bin\Debug\Sistema de Biblioteca.pdb
+C:\Users\Reboucas\Documents\Programação\Modulo 9\Fichas-Modulo-9\Sistema de Biblioteca\Sistema de Biblioteca\obj\Debug\Sistema de Biblioteca.csproj.AssemblyReference.cache
+C:\Users\Reboucas\Documents\Programação\Modulo 9\Fichas-Modulo-9\Sistema de Biblioteca\Sistema de Biblioteca\obj\Debug\Sistema de Biblioteca.csproj.CoreCompileInputs.cache
+C:\Users\Reboucas\Documents\Programação\Modulo 9\Fichas-Modulo-9\Sistema de Biblioteca\Sistema de Biblioteca\obj\Debug\Sistema de Biblioteca.exe
+C:\Users\Reboucas\Documents\Programação\Modulo 9\Fichas-Modulo-9\Sistema de Biblioteca\Sistema de Biblioteca\obj\Debug\Sistema de Biblioteca.pdb

@@ -1,0 +1,126 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Reboucas\\Documents\\Programa\u00E7\u00E3o\\Modulo 10\\Ficha-5-Modulo10\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{48BB6B8E-2AB2-499D-94E1-ED6587D44251}|Ficha-5-Modulo10\\Ficha-5-Modulo10.csproj|c:\\users\\reboucas\\documents\\programa\u00E7\u00E3o\\modulo 10\\ficha-5-modulo10\\ficha-5-modulo10\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48BB6B8E-2AB2-499D-94E1-ED6587D44251}|Ficha-5-Modulo10\\Ficha-5-Modulo10.csproj|solutionrelative:ficha-5-modulo10\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48BB6B8E-2AB2-499D-94E1-ED6587D44251}|Ficha-5-Modulo10\\Ficha-5-Modulo10.csproj|C:\\Users\\Reboucas\\Documents\\Programa\u00E7\u00E3o\\Modulo 10\\Ficha-5-Modulo10\\ficha-5-modulo10\\motor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48BB6B8E-2AB2-499D-94E1-ED6587D44251}|Ficha-5-Modulo10\\Ficha-5-Modulo10.csproj|solutionrelative:ficha-5-modulo10\\motor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48BB6B8E-2AB2-499D-94E1-ED6587D44251}|Ficha-5-Modulo10\\Ficha-5-Modulo10.csproj|C:\\Users\\Reboucas\\Documents\\Programa\u00E7\u00E3o\\Modulo 10\\Ficha-5-Modulo10\\ficha-5-modulo10\\camiao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48BB6B8E-2AB2-499D-94E1-ED6587D44251}|Ficha-5-Modulo10\\Ficha-5-Modulo10.csproj|solutionrelative:ficha-5-modulo10\\camiao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48BB6B8E-2AB2-499D-94E1-ED6587D44251}|Ficha-5-Modulo10\\Ficha-5-Modulo10.csproj|C:\\Users\\Reboucas\\Documents\\Programa\u00E7\u00E3o\\Modulo 10\\Ficha-5-Modulo10\\ficha-5-modulo10\\carro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48BB6B8E-2AB2-499D-94E1-ED6587D44251}|Ficha-5-Modulo10\\Ficha-5-Modulo10.csproj|solutionrelative:ficha-5-modulo10\\carro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48BB6B8E-2AB2-499D-94E1-ED6587D44251}|Ficha-5-Modulo10\\Ficha-5-Modulo10.csproj|C:\\Users\\Reboucas\\Documents\\Programa\u00E7\u00E3o\\Modulo 10\\Ficha-5-Modulo10\\ficha-5-modulo10\\garagem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48BB6B8E-2AB2-499D-94E1-ED6587D44251}|Ficha-5-Modulo10\\Ficha-5-Modulo10.csproj|solutionrelative:ficha-5-modulo10\\garagem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48BB6B8E-2AB2-499D-94E1-ED6587D44251}|Ficha-5-Modulo10\\Ficha-5-Modulo10.csproj|C:\\Users\\Reboucas\\Documents\\Programa\u00E7\u00E3o\\Modulo 10\\Ficha-5-Modulo10\\ficha-5-modulo10\\veiculo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{48BB6B8E-2AB2-499D-94E1-ED6587D44251}|Ficha-5-Modulo10\\Ficha-5-Modulo10.csproj|solutionrelative:ficha-5-modulo10\\veiculo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Veiculo.cs",
+              "DocumentMoniker": "C:\\Users\\Reboucas\\Documents\\Programa\u00E7\u00E3o\\Modulo 10\\Ficha-5-Modulo10\\Ficha-5-Modulo10\\Veiculo.cs",
+              "RelativeDocumentMoniker": "Ficha-5-Modulo10\\Veiculo.cs",
+              "ToolTip": "C:\\Users\\Reboucas\\Documents\\Programa\u00E7\u00E3o\\Modulo 10\\Ficha-5-Modulo10\\Ficha-5-Modulo10\\Veiculo.cs",
+              "RelativeToolTip": "Ficha-5-Modulo10\\Veiculo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T09:03:13.049Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Carro.cs",
+              "DocumentMoniker": "C:\\Users\\Reboucas\\Documents\\Programa\u00E7\u00E3o\\Modulo 10\\Ficha-5-Modulo10\\Ficha-5-Modulo10\\Carro.cs",
+              "RelativeDocumentMoniker": "Ficha-5-Modulo10\\Carro.cs",
+              "ToolTip": "C:\\Users\\Reboucas\\Documents\\Programa\u00E7\u00E3o\\Modulo 10\\Ficha-5-Modulo10\\Ficha-5-Modulo10\\Carro.cs",
+              "RelativeToolTip": "Ficha-5-Modulo10\\Carro.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T09:02:55.479Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Motor.cs",
+              "DocumentMoniker": "C:\\Users\\Reboucas\\Documents\\Programa\u00E7\u00E3o\\Modulo 10\\Ficha-5-Modulo10\\Ficha-5-Modulo10\\Motor.cs",
+              "RelativeDocumentMoniker": "Ficha-5-Modulo10\\Motor.cs",
+              "ToolTip": "C:\\Users\\Reboucas\\Documents\\Programa\u00E7\u00E3o\\Modulo 10\\Ficha-5-Modulo10\\Ficha-5-Modulo10\\Motor.cs",
+              "RelativeToolTip": "Ficha-5-Modulo10\\Motor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T09:02:44.697Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Camiao.cs",
+              "DocumentMoniker": "C:\\Users\\Reboucas\\Documents\\Programa\u00E7\u00E3o\\Modulo 10\\Ficha-5-Modulo10\\Ficha-5-Modulo10\\Camiao.cs",
+              "RelativeDocumentMoniker": "Ficha-5-Modulo10\\Camiao.cs",
+              "ToolTip": "C:\\Users\\Reboucas\\Documents\\Programa\u00E7\u00E3o\\Modulo 10\\Ficha-5-Modulo10\\Ficha-5-Modulo10\\Camiao.cs",
+              "RelativeToolTip": "Ficha-5-Modulo10\\Camiao.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T09:02:31.505Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Garagem.cs",
+              "DocumentMoniker": "C:\\Users\\Reboucas\\Documents\\Programa\u00E7\u00E3o\\Modulo 10\\Ficha-5-Modulo10\\Ficha-5-Modulo10\\Garagem.cs",
+              "RelativeDocumentMoniker": "Ficha-5-Modulo10\\Garagem.cs",
+              "ToolTip": "C:\\Users\\Reboucas\\Documents\\Programa\u00E7\u00E3o\\Modulo 10\\Ficha-5-Modulo10\\Ficha-5-Modulo10\\Garagem.cs",
+              "RelativeToolTip": "Ficha-5-Modulo10\\Garagem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T09:00:03.214Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Reboucas\\Documents\\Programa\u00E7\u00E3o\\Modulo 10\\Ficha-5-Modulo10\\Ficha-5-Modulo10\\Program.cs",
+              "RelativeDocumentMoniker": "Ficha-5-Modulo10\\Program.cs",
+              "ToolTip": "C:\\Users\\Reboucas\\Documents\\Programa\u00E7\u00E3o\\Modulo 10\\Ficha-5-Modulo10\\Ficha-5-Modulo10\\Program.cs",
+              "RelativeToolTip": "Ficha-5-Modulo10\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-25T08:58:26.415Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

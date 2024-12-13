@@ -1,0 +1,14 @@
+C:\Users\Reboucas\source\repos\ProvaAvaliacao-Modulo 9\ProvaAvaliacao-Modulo 9\bin\Debug\ProvaAvaliacao-Modulo 9.exe.config
+C:\Users\Reboucas\source\repos\ProvaAvaliacao-Modulo 9\ProvaAvaliacao-Modulo 9\bin\Debug\ProvaAvaliacao-Modulo 9.exe
+C:\Users\Reboucas\source\repos\ProvaAvaliacao-Modulo 9\ProvaAvaliacao-Modulo 9\bin\Debug\ProvaAvaliacao-Modulo 9.pdb
+C:\Users\Reboucas\source\repos\ProvaAvaliacao-Modulo 9\ProvaAvaliacao-Modulo 9\obj\Debug\ProvaAvaliacao-Modulo 9.csproj.AssemblyReference.cache
+C:\Users\Reboucas\source\repos\ProvaAvaliacao-Modulo 9\ProvaAvaliacao-Modulo 9\obj\Debug\ProvaAvaliacao-Modulo 9.csproj.CoreCompileInputs.cache
+C:\Users\Reboucas\source\repos\ProvaAvaliacao-Modulo 9\ProvaAvaliacao-Modulo 9\obj\Debug\ProvaAvaliacao-Modulo 9.exe
+C:\Users\Reboucas\source\repos\ProvaAvaliacao-Modulo 9\ProvaAvaliacao-Modulo 9\obj\Debug\ProvaAvaliacao-Modulo 9.pdb
+C:\Users\Reboucas\Documents\Programação\Modulo 9\ProvaAvaliacao-Modulo 9\ProvaAvaliacao-Modulo 9\bin\Debug\ProvaAvaliacao-Modulo 9.exe.config
+C:\Users\Reboucas\Documents\Programação\Modulo 9\ProvaAvaliacao-Modulo 9\ProvaAvaliacao-Modulo 9\bin\Debug\ProvaAvaliacao-Modulo 9.exe
+C:\Users\Reboucas\Documents\Programação\Modulo 9\ProvaAvaliacao-Modulo 9\ProvaAvaliacao-Modulo 9\bin\Debug\ProvaAvaliacao-Modulo 9.pdb
+C:\Users\Reboucas\Documents\Programação\Modulo 9\ProvaAvaliacao-Modulo 9\ProvaAvaliacao-Modulo 9\obj\Debug\ProvaAvaliacao-Modulo 9.csproj.AssemblyReference.cache
+C:\Users\Reboucas\Documents\Programação\Modulo 9\ProvaAvaliacao-Modulo 9\ProvaAvaliacao-Modulo 9\obj\Debug\ProvaAvaliacao-Modulo 9.csproj.CoreCompileInputs.cache
+C:\Users\Reboucas\Documents\Programação\Modulo 9\ProvaAvaliacao-Modulo 9\ProvaAvaliacao-Modulo 9\obj\Debug\ProvaAvaliacao-Modulo 9.exe
+C:\Users\Reboucas\Documents\Programação\Modulo 9\ProvaAvaliacao-Modulo 9\ProvaAvaliacao-Modulo 9\obj\Debug\ProvaAvaliacao-Modulo 9.pdb

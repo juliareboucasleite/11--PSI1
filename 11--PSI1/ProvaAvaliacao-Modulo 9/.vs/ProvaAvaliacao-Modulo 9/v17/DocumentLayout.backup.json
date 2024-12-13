@@ -1,0 +1,75 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Reboucas\\Documents\\Programa\u00E7\u00E3o\\Modulo 9\\ProvaAvaliacao-Modulo 9\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{53456582-7C52-4F3B-8B59-72C9C728C44C}|ProvaAvaliacao-Modulo 9\\ProvaAvaliacao-Modulo 9.csproj|c:\\users\\reboucas\\documents\\programa\u00E7\u00E3o\\modulo 9\\provaavaliacao-modulo 9\\provaavaliacao-modulo 9\\pessoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53456582-7C52-4F3B-8B59-72C9C728C44C}|ProvaAvaliacao-Modulo 9\\ProvaAvaliacao-Modulo 9.csproj|solutionrelative:provaavaliacao-modulo 9\\pessoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53456582-7C52-4F3B-8B59-72C9C728C44C}|ProvaAvaliacao-Modulo 9\\ProvaAvaliacao-Modulo 9.csproj|C:\\Users\\Reboucas\\Documents\\Programa\u00E7\u00E3o\\Modulo 9\\ProvaAvaliacao-Modulo 9\\provaavaliacao-modulo 9\\sexopessoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53456582-7C52-4F3B-8B59-72C9C728C44C}|ProvaAvaliacao-Modulo 9\\ProvaAvaliacao-Modulo 9.csproj|solutionrelative:provaavaliacao-modulo 9\\sexopessoa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{53456582-7C52-4F3B-8B59-72C9C728C44C}|ProvaAvaliacao-Modulo 9\\ProvaAvaliacao-Modulo 9.csproj|C:\\Users\\Reboucas\\Documents\\Programa\u00E7\u00E3o\\Modulo 9\\ProvaAvaliacao-Modulo 9\\provaavaliacao-modulo 9\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{53456582-7C52-4F3B-8B59-72C9C728C44C}|ProvaAvaliacao-Modulo 9\\ProvaAvaliacao-Modulo 9.csproj|solutionrelative:provaavaliacao-modulo 9\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SexoPessoa.cs",
+              "DocumentMoniker": "C:\\Users\\Reboucas\\Documents\\Programa\u00E7\u00E3o\\Modulo 9\\ProvaAvaliacao-Modulo 9\\ProvaAvaliacao-Modulo 9\\SexoPessoa.cs",
+              "RelativeDocumentMoniker": "ProvaAvaliacao-Modulo 9\\SexoPessoa.cs",
+              "ToolTip": "C:\\Users\\Reboucas\\Documents\\Programa\u00E7\u00E3o\\Modulo 9\\ProvaAvaliacao-Modulo 9\\ProvaAvaliacao-Modulo 9\\SexoPessoa.cs",
+              "RelativeToolTip": "ProvaAvaliacao-Modulo 9\\SexoPessoa.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T08:51:35.044Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Pessoa.cs",
+              "DocumentMoniker": "C:\\Users\\Reboucas\\Documents\\Programa\u00E7\u00E3o\\Modulo 9\\ProvaAvaliacao-Modulo 9\\ProvaAvaliacao-Modulo 9\\Pessoa.cs",
+              "RelativeDocumentMoniker": "ProvaAvaliacao-Modulo 9\\Pessoa.cs",
+              "ToolTip": "C:\\Users\\Reboucas\\Documents\\Programa\u00E7\u00E3o\\Modulo 9\\ProvaAvaliacao-Modulo 9\\ProvaAvaliacao-Modulo 9\\Pessoa.cs",
+              "RelativeToolTip": "ProvaAvaliacao-Modulo 9\\Pessoa.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAuwBEAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T08:44:59.665Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Reboucas\\Documents\\Programa\u00E7\u00E3o\\Modulo 9\\ProvaAvaliacao-Modulo 9\\ProvaAvaliacao-Modulo 9\\Program.cs",
+              "RelativeDocumentMoniker": "ProvaAvaliacao-Modulo 9\\Program.cs",
+              "ToolTip": "C:\\Users\\Reboucas\\Documents\\Programa\u00E7\u00E3o\\Modulo 9\\ProvaAvaliacao-Modulo 9\\ProvaAvaliacao-Modulo 9\\Program.cs",
+              "RelativeToolTip": "ProvaAvaliacao-Modulo 9\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBAAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T08:42:39.512Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
