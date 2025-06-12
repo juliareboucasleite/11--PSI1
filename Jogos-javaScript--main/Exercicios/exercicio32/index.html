@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercício 32 - Desenho de Retângulo</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(to right, #fdfdfd, #eeeeee);
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 20px;
+            flex-direction: column;
+        }
+        
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 20px;
+        }
+        
+        .canvas-container {
+            border: 1px solid #ccc;
+            background-color: #fff;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Exercício 32</h1>
+    <div class="canvas-container">
+        <canvas id="meuCanvas" width="400" height="300"></canvas>
+    </div>
+
+    <script>
+        function desenharRetangulo() {
+            const canvas = document.getElementById('meuCanvas');
+            const ctx = canvas.getContext('2d');
+
+            ctx.fillStyle = 'blue';
+            ctx.fillRect(50, 50, 300, 200);
+        }
+        desenharRetangulo();
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Concurso Preço Certo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: var(--bg, #f4f4f4);
+            margin: 0;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        
+        .container {
+            background: var(--card-bg, #fff);
+            padding: 30px 40px;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            max-width: 700px;
+            width: 100%;
+            box-sizing: border-box;
+            text-align: center;
+        }
+        
+        h1 {
+            margin-bottom: 20px;
+            color: var(--text, #333);
+        }
+        
+        input,
+        button {
+            font-size: 1rem;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 8px;
+            border: 1px solid #ccc;
+            width: 100%;
+            max-width: 350px;
+            box-sizing: border-box;
+        }
+        
+        button {
+            background-color: #6a1b9a;
+            color: white;
+            border: none;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            margin-top: 15px;
+        }
+        
+        button:hover {
+            background-color: #8e24aa;
+        }
+        
+        .message {
+            margin-top: 25px;
+            font-weight: bold;
+            color: var(--text, #333);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Concurso Preço Certo</h1>
+        <div>
+            <label for="numPlayers">Número de Jogadores:</label>
+            <input type="number" id="numPlayers" placeholder="Insira o número de jogadores" min="2" />
+            <button onclick="iniciarJogo()">Iniciar Jogo</button>
+        </div>
+        <div id="jogo" style="display:none; margin-top:20px;">
+            <div id="produtos"></div>
+            <button onclick="determinarVencedor()" style="margin-top: 10px;">Verificar Vencedor</button>
+            <div class="message" id="resultado"></div>
+        </div>
+    </div>
+
+    <script>
+        let produtos = [{
+            nome: "Computador",
+            valor: 800
+        }, {
+            nome: "Frigorífico",
+            valor: 1200
+        }, {
+            nome: "Fogão",
+            valor: 600
+        }, {
+            nome: "Microondas",
+            valor: 80
+        }];
+        let jogadores = [];
+
+        function iniciarJogo() {
+            const numPlayers = document.getElementById('numPlayers').value;
+            if (numPlayers < 2) {
+                alert("Deve haver pelo menos 2 jogadores!");
+                return;
+            }
+            jogadores = [];
+            for (let i = 0; i < numPlayers; i++) {
+                const nome = prompt(`Insira o nome do Jogador ${i+1}:`);
+                jogadores.push({
+                    nome: nome,
+                    ofertas: []
+                });
+            }
+            document.getElementById('numPlayers').style.display = 'none';
+            document.querySelector('button').style.display = 'none';
+            mostrarProdutos();
+            document.getElementById('jogo').style.display = 'block';
+        }
+
+        function mostrarProdutos() {
+            const produtosDiv = document.getElementById('produtos');
+            produtosDiv.innerHTML = '';
+            produtos.forEach((produto, index) => {
+                produtosDiv.innerHTML += `<h2>${produto.nome}</h2>`;
+                jogadores.forEach((jogador, jogadorIndex) => {
+                    produtosDiv.innerHTML += `<input type="number" id="oferta${index}-${jogadorIndex}" placeholder="Oferta de ${jogador.nome} para ${produto.nome}" min="0" style="margin-bottom:10px;">`;
+                });
+            });
+        }
+
+        function determinarVencedor() {
+            let resultadoDiv = document.getElementById('resultado');
+            resultadoDiv.textContent = '';
+            produtos.forEach((produto, index) => {
+                let melhorJogador = null;
+                let melhorOferta = -1;
+                jogadores.forEach((jogador, jogadorIndex) => {
+                    const oferta = parseFloat(document.getElementById(`oferta${index}-${jogadorIndex}`).value) || 0;
+                    jogador.ofertas[index] = oferta;
+                    if (oferta <= produto.valor) {
+                        if (oferta > melhorOferta) {
+                            melhorOferta = oferta;
+                            melhorJogador = jogador.nome;
+                        }
+                    }
+                });
+                if (melhorJogador) {
+                    resultadoDiv.innerHTML += `<p>${melhorJogador} ganhou o ${produto.nome} com uma oferta de ${melhorOferta} €.</p>`;
+                } else {
+                    resultadoDiv.innerHTML += `<p>Ninguém ganhou o ${produto.nome}. Todas as ofertas ultrapassaram o valor.</p>`;
+                }
+            });
+        }
+    </script>
+</body>
+
+</html>

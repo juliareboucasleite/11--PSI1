@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercício 44 - Eleições para Presidente da Junta</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(to right, #fdfdfd, #eeeeee);
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        
+        .container {
+            background: #fff;
+            padding: 30px;
+            border-radius: 14px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+            max-width: 500px;
+            width: 100%;
+            text-align: center;
+        }
+        
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 20px;
+        }
+        
+        button {
+            background-color: #6a1b9a;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            padding: 12px 24px;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            width: 100%;
+        }
+        
+        button:hover {
+            background-color: #8e24aa;
+        }
+        
+        .message {
+            margin-top: 20px;
+            font-weight: 600;
+            color: #444;
+            min-height: 3em;
+        }
+        
+        .vencedor {
+            background-color: #c3545f;
+            color: white;
+            padding: 12px;
+            border-radius: 8px;
+            margin-top: 15px;
+            font-weight: 700;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Eleições para Presidente da Junta</h1>
+        <button onclick="gerarVotos()">Apurar Votos Recebidos</button>
+        <div class="message" id="resultado"></div>
+    </div>
+
+    <script>
+        function gerarVotos() {
+            const totalVotos = 150000;
+
+            const votosCandidato1 = Math.floor(Math.random() * (totalVotos + 1));
+            const votosCandidato2 = Math.floor(Math.random() * (totalVotos - votosCandidato1 + 1));
+            const votosCandidato3 = totalVotos - votosCandidato1 - votosCandidato2;
+
+            const porcentagemCandidato1 = ((votosCandidato1 / totalVotos) * 100).toFixed(2);
+            const porcentagemCandidato2 = ((votosCandidato2 / totalVotos) * 100).toFixed(2);
+            const porcentagemCandidato3 = ((votosCandidato3 / totalVotos) * 100).toFixed(2);
+
+            let vencedor;
+            if (votosCandidato1 > votosCandidato2 && votosCandidato1 > votosCandidato3) {
+                vencedor = "André Ventura";
+            } else if (votosCandidato2 > votosCandidato1 && votosCandidato2 > votosCandidato3) {
+                vencedor = "António Costa";
+            } else if (votosCandidato3 > votosCandidato1 && votosCandidato3 > votosCandidato2) {
+                vencedor = "Rui Rio";
+            } else {
+                vencedor = "Empate entre candidatos.";
+            }
+
+            const resultadoDiv = document.getElementById('resultado');
+            resultadoDiv.innerHTML = `
+        <p>Total de votos: ${totalVotos}</p>
+        <p>André Ventura: ${votosCandidato1} (${porcentagemCandidato1}%)</p>
+        <p>António Costa: ${votosCandidato2} (${porcentagemCandidato2}%)</p>
+        <p>Rui Rio: ${votosCandidato3} (${porcentagemCandidato3}%)</p>
+        <p class="vencedor">Vencedor: ${vencedor}</p>
+      `;
+        }
+    </script>
+</body>
+
+</html>

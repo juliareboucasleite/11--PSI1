@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Remover Números Duplicados</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: var(--bg, #f4f4f4);
+            margin: 0;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        
+        .container {
+            background: var(--card-bg, #fff);
+            padding: 30px 40px;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            max-width: 700px;
+            width: 100%;
+            box-sizing: border-box;
+            text-align: center;
+        }
+        
+        h1 {
+            margin-bottom: 20px;
+            color: var(--text, #333);
+        }
+        
+        button {
+            background-color: #6a1b9a;
+            color: white;
+            border: none;
+            padding: 12px 20px;
+            font-size: 1rem;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            margin-top: 10px;
+        }
+        
+        button:hover {
+            background-color: #8e24aa;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            margin-left: auto;
+            margin-right: auto;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        
+        th,
+        td {
+            padding: 10px 15px;
+            border: 1px solid #ddd;
+            text-align: center;
+        }
+        
+        th {
+            background-color: #6a1b9a;
+            color: white;
+        }
+        
+        .duplicado {
+            color: red;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Remover Números Duplicados</h1>
+        <button onclick="removerDuplicados()">Gerar Números e Remover Duplicados</button>
+        <div id="resultado"></div>
+    </div>
+
+    <script>
+        function removerDuplicados() {
+            const numeros = [];
+            const numerosUnicos = [];
+            const numerosContados = {};
+
+            for (let i = 0; i < 100; i++) {
+                const numero = Math.floor(Math.random() * 1001);
+                numeros.push(numero);
+            }
+
+            numeros.forEach(numero => {
+                numerosContados[numero] = (numerosContados[numero] || 0) + 1;
+            });
+
+            for (let numero in numerosContados) {
+                if (numerosContados[numero] === 1) {
+                    numerosUnicos.push(numero);
+                }
+            }
+
+            const criarTabela = (array, titulo) => {
+                let tabelaHTML = `<h3>${titulo}</h3><table><tr>`;
+                for (let i = 0; i < array.length; i++) {
+                    const numero = array[i];
+                    const classeDuplicado = numerosContados[numero] > 1 ? 'duplicado' : '';
+                    tabelaHTML += `<td class="${classeDuplicado}">${numero}</td>`;
+                    if ((i + 1) % 10 === 0 && i + 1 < array.length) {
+                        tabelaHTML += '</tr><tr>';
+                    }
+                }
+                tabelaHTML += '</tr></table>';
+                return tabelaHTML;
+            };
+
+            const resultadoDiv = document.getElementById('resultado');
+            resultadoDiv.innerHTML = `
+        ${criarTabela(numeros, 'Array Original')}
+        ${criarTabela(numerosUnicos, 'Array Sem Duplicatas')}
+      `;
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Jogo da Forca</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <h1>Jogo da Forca</h1>
+    <div class="game-container">
+        <div class="status">
+            <div><strong>Tentativas:</strong> <span id="attempts">6</span></div>
+            <div><strong>Dica:</strong> <span id="hint"></span></div>
+        </div>
+
+        <canvas id="forcaCanvas" width="250" height="300" aria-label="Desenho da forca"></canvas>
+
+        <div class="word" id="wordDisplay" aria-live="polite"></div>
+
+        <div class="keyboard" id="keyboard" role="application" aria-label="Teclado para escolher letras"></div>
+
+        <div class="message" id="message" role="alert"></div>
+
+        <button class="restart-btn" id="restartBtn">Reiniciar Jogo</button>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

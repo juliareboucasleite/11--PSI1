@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercício 7 - Data e Hora Atual</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../common.css">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(to right, #f0f0f0, #ffffff);
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        
+        .container {
+            background: #fff;
+            padding: 40px;
+            border-radius: 14px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+            max-width: 500px;
+            width: 90%;
+            text-align: center;
+        }
+        
+        h1 {
+            color: #333;
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+        }
+        
+        .date-time {
+            font-size: 1.2rem;
+            color: var(--accent);
+            margin: 20px 0;
+        }
+        
+        .time {
+            font-size: 3.5rem;
+            font-weight: bold;
+            margin: 20px 0;
+            background: var(--gradient);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .period {
+            font-size: 1.5rem;
+            margin: 10px 0;
+            padding: 10px 20px;
+            border-radius: 20px;
+            display: inline-block;
+            color: white;
+            background: var(--gradient);
+        }
+        
+        .period-icon {
+            font-size: 2rem;
+            margin-right: 10px;
+        }
+        
+        .seconds {
+            font-size: 2rem;
+            opacity: 0.7;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Data e Hora Atual</h1>
+        <p class="date-time" id="dataAtual">Carregando...</p>
+        <div class="time" id="horaAtual">00:00<span class="seconds">:00</span></div>
+        <div class="period" id="periodo">
+            <span class="period-icon" id="periodoIcone">🌅</span>
+            <span id="periodoTexto">Carregando...</span>
+        </div>
+    </div>
+
+    <script>
+        function getPeriodoInfo(hora) {
+            if (hora >= 5 && hora < 12) {
+                return {
+                    texto: "Bom dia",
+                    icone: "🌅"
+                };
+            } else if (hora >= 12 && hora < 18) {
+                return {
+                    texto: "Boa tarde",
+                    icone: "☀️"
+                };
+            } else {
+                return {
+                    texto: "Boa noite",
+                    icone: "🌙"
+                };
+            }
+        }
+
+        function mostrarDataHoraAtual() {
+            const data = new Date();
+            const opcoesData = {
+                year: 'numeric',
+                month: 'long',
+                day: 'numeric',
+                weekday: 'long'
+            };
+            const dataFormatada = data.toLocaleDateString('pt-PT', opcoesData);
+
+            const horas = String(data.getHours()).padStart(2, '0');
+            const minutos = String(data.getMinutes()).padStart(2, '0');
+            const segundos = String(data.getSeconds()).padStart(2, '0');
+
+            // Atualizar data
+            document.getElementById('dataAtual').textContent = dataFormatada;
+
+            // Atualizar hora
+            document.getElementById('horaAtual').innerHTML =
+                `${horas}:${minutos}<span class="seconds">:${segundos}</span>`;
+
+            // Atualizar período
+            const periodoInfo = getPeriodoInfo(data.getHours());
+            document.getElementById('periodoIcone').textContent = periodoInfo.icone;
+            document.getElementById('periodoTexto').textContent = periodoInfo.texto;
+        }
+
+        mostrarDataHoraAtual();
+        setInterval(mostrarDataHoraAtual, 1000);
+    </script>
+</body>
+
+</html>

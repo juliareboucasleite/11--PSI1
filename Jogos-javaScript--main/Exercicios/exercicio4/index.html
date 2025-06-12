@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercício 4 - Formulário de Idade</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../common.css">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(to right, #fdfdfd, #eeeeee);
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .container {
+            background: #fff;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            max-width: 400px;
+            width: 90%;
+        }
+        
+        h1 {
+            color: #333;
+            margin-bottom: 20px;
+            font-size: 1.5rem;
+        }
+        
+        input[type="number"] {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid var(--accent);
+            border-radius: 6px;
+            font-size: 1rem;
+        }
+        
+        .result {
+            margin-top: 20px;
+            font-size: 1.1rem;
+            font-weight: 500;
+            color: #333;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="exercise-container text-center">
+        <h1>Formulário de Idade</h1>
+        <p>Olá, <span class="user-name">visitante</span>!</p>
+        <input type="number" id="idade" placeholder="Digite sua idade" />
+        <button onclick="mostrarMensagem()">Enviar</button>
+        <div class="result" id="resultado"></div>
+    </div>
+
+    <script src="../common.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const nome = getUserName();
+            if (nome) {
+                document.querySelector('.user-name').textContent = nome;
+            }
+        });
+
+        function mostrarMensagem() {
+            const idade = document.getElementById("idade").value;
+            const nome = getUserName();
+
+            if (idade) {
+                document.getElementById("resultado").innerHTML = `O Formando <span class="user-name">${nome}</span> tem <strong>${idade}</strong> anos.`;
+            } else {
+                document.getElementById("resultado").innerHTML = '<span class="error">Por favor, informe sua idade.</span>';
+            }
+        }
+    </script>
+</body>
+
+</html>

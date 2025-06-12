@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercício 6 - Dados do Formando</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(to right, #f4f4f4, #ffffff);
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .container {
+            background: #fff;
+            padding: 35px 30px;
+            border-radius: 12px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+            text-align: left;
+            width: 100%;
+            max-width: 480px;
+        }
+        
+        h1 {
+            text-align: center;
+            color: #333;
+            font-size: 1.6rem;
+            margin-bottom: 25px;
+        }
+        
+        input,
+        select {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            font-size: 1rem;
+            border-radius: 8px;
+            border: 1px solid #ccc;
+        }
+        
+        button {
+            padding: 12px 24px;
+            background-color: #6a1b9a;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 1rem;
+            cursor: pointer;
+            float: right;
+            transition: background-color 0.3s;
+        }
+        
+        button:hover {
+            background-color: #8e24aa;
+        }
+        
+        .result {
+            clear: both;
+            margin-top: 30px;
+            font-size: 1rem;
+            color: #444;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Formulário de Dados Pessoais</h1>
+        <input type="text" id="nome" placeholder="Digite seu nome" />
+        <select id="estadoCivil">
+      <option value="" disabled selected>Selecione o estado civil</option>
+      <option value="Casado">Casado</option>
+      <option value="Solteiro">Solteiro</option>
+      <option value="Divorciado">Divorciado</option>
+      <option value="Viúvo">Viúvo</option>
+      <option value="Enrolado">Enrolado</option>
+    </select>
+        <input type="number" id="idade" placeholder="Digite sua idade" />
+        <input type="number" id="altura" placeholder="Digite sua altura (em cm)" />
+        <select id="socio">
+      <option value="" disabled selected>Sócio?</option>
+      <option value="Sim">Sim</option>
+      <option value="Não">Não</option>
+    </select>
+        <input type="text" id="email" placeholder="Digite seu email" />
+        <button onclick="mostrarDados()">Enviar</button>
+
+        <div class="result" id="resultado"></div>
+    </div>
+
+    <script>
+        function mostrarDados() {
+            const nome = document.getElementById('nome').value.trim();
+            const estadoCivil = document.getElementById('estadoCivil').value;
+            const idade = document.getElementById('idade').value;
+            const altura = document.getElementById('altura').value;
+            const socio = document.getElementById('socio').value;
+            const email = document.getElementById('email').value.trim();
+
+            if (nome && estadoCivil && idade && altura && socio && email) {
+                document.getElementById('resultado').innerHTML = `
+          <strong>Nome:</strong> ${nome}<br>
+          <strong>Estado civil:</strong> ${estadoCivil}<br>
+          <strong>Idade:</strong> ${idade} anos<br>
+          <strong>Altura:</strong> ${altura} cm<br>
+          <strong>Sócio:</strong> ${socio}<br>
+          <strong>Email:</strong> ${email}
+        `;
+            } else {
+                document.getElementById('resultado').innerHTML = '<span style="color: red;">Por favor, preencha todos os campos.</span>';
+            }
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercício 29 - Lançamento de Dado</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+    <style>
+         :root {
+            --primary: #6a1b9a;
+            --dice-size: 100px;
+        }
+        
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            margin: 0;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        
+        .container {
+            background: #fff;
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            max-width: 400px;
+            width: 100%;
+            text-align: center;
+        }
+        
+        h1 {
+            font-size: 1.8rem;
+            color: var(--primary);
+            margin-bottom: 20px;
+        }
+        
+        .description {
+            font-size: 1rem;
+            color: #666;
+            margin-bottom: 25px;
+        }
+        
+        button {
+            background: var(--primary);
+            color: white;
+            border: none;
+            border-radius: 12px;
+            padding: 14px 28px;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: all 0.3s;
+            width: 100%;
+            margin-bottom: 20px;
+        }
+        
+        button:hover {
+            opacity: 0.9;
+            transform: translateY(-2px);
+        }
+        
+        button:disabled {
+            opacity: 0.7;
+            cursor: not-allowed;
+        }
+        
+        .result {
+            text-align: left;
+            font-size: 1rem;
+            color: #444;
+            line-height: 1.8;
+            opacity: 0;
+            transform: translateY(20px);
+            transition: all 0.3s;
+        }
+        
+        .result.show {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        
+        .dice-container {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            background: rgba(255, 255, 255, 0.95);
+            display: none;
+            justify-content: center;
+            align-items: center;
+            perspective: 1000px;
+        }
+        
+        .dice {
+            width: var(--dice-size);
+            height: var(--dice-size);
+            position: relative;
+            transform-style: preserve-3d;
+        }
+        
+        .face {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background: white;
+            border: 2px solid var(--primary);
+            border-radius: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 2rem;
+            color: var(--primary);
+            font-weight: bold;
+            backface-visibility: hidden;
+        }
+        
+        .face1 {
+            transform: rotateY(0deg) translateZ(50px);
+        }
+        
+        .face2 {
+            transform: rotateY(90deg) translateZ(50px);
+        }
+        
+        .face3 {
+            transform: rotateY(180deg) translateZ(50px);
+        }
+        
+        .face4 {
+            transform: rotateY(-90deg) translateZ(50px);
+        }
+        
+        .face5 {
+            transform: rotateX(90deg) translateZ(50px);
+        }
+        
+        .face6 {
+            transform: rotateX(-90deg) translateZ(50px);
+        }
+        
+        @keyframes roll {
+            0% {
+                transform: rotateX(0) rotateY(0);
+            }
+            100% {
+                transform: rotateX(720deg) rotateY(360deg);
+            }
+        }
+        
+        .rolling {
+            animation: roll 2s ease-out;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Lançamento de Dado</h1>
+        <div class="description">Simule o lançamento de um dado 35.000 vezes e veja a distribuição dos resultados.</div>
+        <button onclick="simularLancamento()" id="btnSimular">Iniciar Simulação</button>
+        <div class="result" id="resultado"></div>
+    </div>
+
+    <div class="dice-container" id="diceContainer">
+        <div class="dice" id="dice">
+            <div class="face face1">1</div>
+            <div class="face face2">2</div>
+            <div class="face face3">3</div>
+            <div class="face face4">4</div>
+            <div class="face face5">5</div>
+            <div class="face face6">6</div>
+        </div>
+    </div>
+
+    <script>
+        function simularLancamento() {
+            const btn = document.getElementById('btnSimular');
+            const dice = document.getElementById('dice');
+            const diceContainer = document.getElementById('diceContainer');
+            const resultado = document.getElementById('resultado');
+
+            btn.disabled = true;
+            resultado.classList.remove('show');
+            diceContainer.style.display = 'flex';
+            dice.classList.add('rolling');
+
+            setTimeout(() => {
+                const resultados = {
+                    1: 0,
+                    2: 0,
+                    3: 0,
+                    4: 0,
+                    5: 0,
+                    6: 0
+                };
+                for (let i = 0; i < 35000; i++) {
+                    resultados[Math.floor(Math.random() * 6) + 1]++;
+                }
+
+                let texto = '';
+                for (let num = 1; num <= 6; num++) {
+                    const porcentagem = ((resultados[num] / 35000) * 100).toFixed(2);
+                    texto += `Número ${num}: ${resultados[num]} vezes (${porcentagem}%)<br>`;
+                }
+
+                setTimeout(() => {
+                    diceContainer.style.display = 'none';
+                    dice.classList.remove('rolling');
+                    resultado.innerHTML = texto;
+                    resultado.classList.add('show');
+                    btn.disabled = false;
+                }, 500);
+            }, 2000);
+        }
+    </script>
+</body>
+
+</html>

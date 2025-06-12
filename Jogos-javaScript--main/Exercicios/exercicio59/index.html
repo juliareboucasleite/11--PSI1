@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Exercício 59 - Insertion Sort</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: var(--card-bg, #fff);
+            color: var(--text, #333);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            padding: 40px 20px;
+            text-align: center;
+        }
+        
+        .container {
+            max-width: 700px;
+            width: 100%;
+            background: var(--card-bg, #fff);
+            padding: 30px 40px;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            box-sizing: border-box;
+        }
+        
+        h1 {
+            margin-bottom: 25px;
+        }
+        
+        button {
+            background-color: #6a1b9a;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            padding: 12px 24px;
+            font-size: 1.1rem;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            margin-bottom: 30px;
+            width: 100%;
+            max-width: 250px;
+        }
+        
+        button:hover {
+            background-color: #8e24aa;
+        }
+        
+        h2 {
+            margin-bottom: 10px;
+            color: var(--text, #333);
+        }
+        
+        table {
+            margin: 0 auto 30px;
+            border-collapse: collapse;
+            width: 90%;
+            max-width: 650px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        
+        th,
+        td {
+            border: 1px solid #ddd;
+            padding: 12px 20px;
+            font-size: 1rem;
+            background: white;
+            text-align: center;
+        }
+        
+        th {
+            background-color: #6a1b9a;
+            color: white;
+            font-weight: 600;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Ordenação com Insertion Sort</h1>
+        <button onclick="ordenarArray()">Ordenar Array</button>
+
+        <h2>Array Original</h2>
+        <table id="tabelaOriginal"></table>
+
+        <h2>Array Ordenado</h2>
+        <table id="tabelaOrdenada"></table>
+    </div>
+
+    <script>
+        const tamanhoArray = 100;
+        let array = [];
+
+        function gerarArrayAleatorio() {
+            array = [];
+            for (let i = 0; i < tamanhoArray; i++) {
+                array.push(Math.floor(Math.random() * 1000));
+            }
+            exibirArray('tabelaOriginal', array);
+        }
+
+        function exibirArray(tabelaId, arr) {
+            const tabela = document.getElementById(tabelaId);
+            tabela.innerHTML = '<tr><th>Índice</th><th>Valor</th></tr>';
+            arr.forEach((valor, indice) => {
+                tabela.innerHTML += `<tr><td>${indice}</td><td>${valor}</td></tr>`;
+            });
+        }
+
+        function insertionSort(arr) {
+            const n = arr.length;
+            for (let i = 1; i < n; i++) {
+                let chave = arr[i];
+                let j = i - 1;
+
+                while (j >= 0 && arr[j] > chave) {
+                    arr[j + 1] = arr[j];
+                    j--;
+                }
+                arr[j + 1] = chave;
+            }
+            return arr;
+        }
+
+        function ordenarArray() {
+            gerarArrayAleatorio();
+            const ordenado = insertionSort([...array]);
+            exibirArray('tabelaOrdenada', ordenado);
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Contador de Números</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: var(--bg, #f4f4f4);
+            margin: 0;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        
+        .container {
+            background: var(--card-bg, #fff);
+            padding: 30px 40px;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            max-width: 700px;
+            width: 100%;
+            box-sizing: border-box;
+            text-align: center;
+        }
+        
+        h1 {
+            margin-bottom: 20px;
+            color: var(--text, #333);
+        }
+        
+        button {
+            background-color: #6a1b9a;
+            color: white;
+            border: none;
+            padding: 12px 20px;
+            font-size: 1rem;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            margin-top: 10px;
+        }
+        
+        button:hover {
+            background-color: #8e24aa;
+        }
+        
+        .message {
+            margin-top: 20px;
+            font-weight: bold;
+            color: var(--text, #333);
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            margin-left: auto;
+            margin-right: auto;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        
+        th,
+        td {
+            padding: 10px 15px;
+            border: 1px solid #ddd;
+            text-align: center;
+        }
+        
+        th {
+            background-color: #6a1b9a;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Contador de Números</h1>
+        <button onclick="contarNumeros()">Gerar Números e Contar</button>
+        <div class="message" id="resultado"></div>
+    </div>
+
+    <script>
+        function contarNumeros() {
+            const numeros = Array.from({
+                length: 100
+            }, () => Math.floor(Math.random() * 100) + 1);
+            const contador = {};
+            numeros.forEach(num => {
+                contador[num] = (contador[num] || 0) + 1;
+            });
+            const resultadoDiv = document.getElementById('resultado');
+            resultadoDiv.innerHTML = '<h3>Números e suas contagens:</h3>';
+            let tabela = '<table><tr><th>Número</th><th>Contagem</th></tr>';
+            for (const num in contador) {
+                tabela += `<tr><td>${num}</td><td>${contador[num]}</td></tr>`;
+            }
+            tabela += '</table>';
+            resultadoDiv.innerHTML += tabela;
+        }
+    </script>
+</body>
+
+</html>

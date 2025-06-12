@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercício 3 - Aprovação</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../common.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(to right, #fdfdfd, #eeeeee);
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .exercise-container {
+            background: #fff;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            max-width: 400px;
+            width: 90%;
+        }
+        
+        h1 {
+            color: #333;
+            margin-bottom: 20px;
+            font-size: 1.8rem;
+        }
+        
+        #mensagem {
+            font-size: 1.2rem;
+            color: #333;
+            line-height: 1.6;
+        }
+        
+        button {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="exercise-container">
+        <h1>Aprovação</h1>
+        <p id="mensagem">Clique no botão para informar seu nome</p>
+        <button onclick="pedirNome()">Informar Nome</button>
+    </div>
+
+    <script src="../common.js"></script>
+    <script>
+        function pedirNome() {
+            Swal.fire({
+                title: 'Digite seu nome',
+                input: 'text',
+                inputPlaceholder: 'Digite seu nome...',
+                showCancelButton: true,
+                confirmButtonText: 'Confirmar',
+                cancelButtonText: 'Cancelar'
+            }).then((result) => {
+                if (result.isConfirmed && result.value) {
+                    const nome = result.value;
+                    document.getElementById("mensagem").innerHTML = `O Formando <span class="user-name">${nome}</span> está aprovado.`;
+                }
+            });
+        }
+
+        // Pedir nome automaticamente quando a página carregar
+        window.onload = pedirNome;
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Cor de Fundo do Parágrafo</title>
+    <style>
+        /* Use o CSS acima aqui */
+        
+        body {
+            font-family: Arial, sans-serif;
+            background-color: var(--bg, #f4f4f4);
+            margin: 0;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 40px 20px;
+        }
+        
+        .container {
+            background: var(--card-bg, #fff);
+            padding: 30px 40px;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            max-width: 700px;
+            width: 100%;
+            box-sizing: border-box;
+            text-align: center;
+            color: var(--text, #333);
+        }
+        
+        h1 {
+            margin-bottom: 20px;
+        }
+        
+        input,
+        button {
+            margin-top: 10px;
+            font-size: 1rem;
+        }
+        
+        button {
+            background-color: #6a1b9a;
+            color: white;
+            border: none;
+            padding: 12px 25px;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            width: 100%;
+            max-width: 300px;
+        }
+        
+        button:hover {
+            background-color: #8e24aa;
+        }
+        
+        input {
+            padding: 12px;
+            border-radius: 8px;
+            border: 1px solid #ccc;
+            width: 100%;
+            max-width: 300px;
+            box-sizing: border-box;
+        }
+        
+        p.paragraph {
+            padding: 20px;
+            border: 1px solid #ccc;
+            margin-top: 20px;
+            transition: background-color 0.3s ease;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+            border-radius: 8px;
+            color: var(--text, #333);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Alterar Cor de Fundo do Parágrafo</h1>
+        <input type="text" id="corInput" placeholder="Digite uma cor (ex: red, #ff0000)" />
+        <button onclick="mudarCor()">Aplicar Cor</button>
+        <p class="paragraph" id="meuParagrafo">Insira a sua cor favorita, mas não fique triste.</p>
+    </div>
+
+    <script>
+        function mudarCor() {
+            const cor = document.getElementById('corInput').value.trim();
+            if (cor) {
+                document.getElementById('meuParagrafo').style.backgroundColor = cor;
+            }
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercício 8 - Saudação</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../common.css">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(to right, #f0f0f0, #ffffff);
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        
+        .container {
+            background: #fff;
+            padding: 40px;
+            border-radius: 14px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+            max-width: 500px;
+            width: 90%;
+            text-align: center;
+        }
+        
+        h1 {
+            color: #333;
+            font-size: 1.5rem;
+            margin-bottom: 20px;
+        }
+        
+        .time {
+            font-size: 3.5rem;
+            font-weight: bold;
+            margin: 20px 0;
+            background: var(--gradient);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .greeting {
+            font-size: 1.5rem;
+            margin: 10px 0;
+            padding: 10px 20px;
+            border-radius: 20px;
+            display: inline-block;
+            color: white;
+            background: var(--gradient);
+        }
+        
+        .period-icon {
+            font-size: 2rem;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Saudação visitante</h1>
+        <div class="time" id="horaAtual">00:00</div>
+        <div class="greeting">
+            <span class="period-icon" id="periodoIcone">🌅</span>
+            <span id="mensagem">Carregando...</span>
+        </div>
+    </div>
+
+    <script>
+        function getPeriodoInfo(hora) {
+            if (hora >= 5 && hora < 12) {
+                return {
+                    texto: "Bom dia",
+                    icone: "🌅"
+                };
+            } else if (hora >= 12 && hora < 18) {
+                return {
+                    texto: "Boa tarde",
+                    icone: "☀️"
+                };
+            } else {
+                return {
+                    texto: "Boa noite",
+                    icone: "🌙"
+                };
+            }
+        }
+
+        function atualizarHoraSaudacao() {
+            const data = new Date();
+            const horas = String(data.getHours()).padStart(2, '0');
+            const minutos = String(data.getMinutes()).padStart(2, '0');
+
+            document.getElementById('horaAtual').textContent = `${horas}:${minutos}`;
+
+            const periodoInfo = getPeriodoInfo(data.getHours());
+            document.getElementById('periodoIcone').textContent = periodoInfo.icone;
+            document.getElementById('mensagem').textContent = periodoInfo.texto;
+        }
+
+        atualizarHoraSaudacao();
+        setInterval(atualizarHoraSaudacao, 1000);
+    </script>
+</body>
+
+</html>

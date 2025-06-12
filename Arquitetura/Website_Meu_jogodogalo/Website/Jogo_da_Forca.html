@@ -1,0 +1,74 @@
+<!DOCTYPE HTML>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <title>Jogo da Forca</title>
+
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="meus_js/meus_css/style.css">
+
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+</head>
+
+<body class="is-preload">
+
+    <!-- Header -->
+    <header id="header">
+        <a href="index.html" class="title">Índice</a>
+    </header>
+
+    <!-- Wrapper -->
+    <div id="wrapper">
+        <!-- Main -->
+        <section id="main" class="wrapper">
+            <div class="inner">
+                <h1 class="major">Jogo da Forca!</h1>
+
+                <!-- Contêiner do Jogo -->
+                <div class="jogo-da-forca">
+                    <!-- Área do Canvas da Forca -->
+                    <div class="forca-container">
+                        <canvas id="forca" width="200" height="200"></canvas>
+                    </div>
+
+                    <!-- Área de Informações do Jogo -->
+                    <div class="info-container">
+                        <div id="categoria"></div>
+                        <div id="palavra" class="palavra"></div>
+                        <div id="letras-erradas"></div>
+                        <div id="tentativas"></div>
+                        <div id="mensagem" class="mensagem"></div>
+                        <button id="novo-jogo" class="button">Novo Jogo</button>
+                    </div>
+
+                    <!-- Teclado Virtual -->
+                    <div id="teclado" class="teclado"></div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer id="footer" class="wrapper alt">
+        <div class="inner">
+            <ul class="menu">
+                <li>&copy; Feito por Julia Rebouças Leite.</li>
+            </ul>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="meus_js/Forca.js"></script>
+</body>
+
+</html>

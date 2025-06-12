@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Desafios Interativos</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+
+<body class="theme-white">
+    <audio id="background-music" loop>
+        <source src="musica/Mario Kart 64 - Rainbow Road (Lofi Lia Remix).mp3" type="audio/mpeg" />
+        Seu navegador não suporta áudio.
+    </audio>
+
+    <div class="theme-selector">
+        <div class="theme-option" data-theme="theme-white" style="background: linear-gradient(135deg, #6e8efb, #a777e3);" title="Tema Claro"></div>
+        <div class="theme-option" data-theme="theme-dark" style="background: linear-gradient(135deg, #434343, #000000);" title="Tema Escuro"></div>
+        <div class="theme-option" data-theme="theme-warm" style="background: linear-gradient(135deg, #f6d365, #fda085);" title="Tema Quente"></div>
+        <div class="theme-option" data-theme="theme-purple" style="background: linear-gradient(135deg, #da4453, #89216b);" title="Tema Roxo"></div>
+        <div class="theme-option" data-theme="theme-ocean" style="background: linear-gradient(135deg, #2193b0, #6dd5ed);" title="Tema Oceano"></div>
+    </div>
+
+    <header>
+        <h1>Desafios Interativos</h1>
+        <p class="sub">Uma coleção de exercícios interativos para praticar JavaScript</p>
+        <div class="user-section">
+            <p class="user-welcome">Bem-vindo(a), <span id="userName">visitante</span>!</p>
+            <button class="change-name-btn" onclick="changeUserName()">Mudar Nome</button>
+        </div>
+    </header>
+
+    <div class="search-bar">
+        <input type="text" id="search-input" placeholder="Buscar exercício..." />
+    </div>
+
+    <main class="grid-container" id="exercises-container">
+        <!-- Cards serão inseridos aqui por JavaScript -->
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p class="author">Desenvolvido por Ericka Rebouças</p>
+            <p class="copyright">© 2025 Todos os direitos reservados</p>
+        </div>
+    </footer>
+
+    <div class="modal" id="exerciseModal">
+        <div class="modal-content">
+            <button class="close-btn" onclick="closeExercise()" title="Fechar"></button>
+            <iframe id="exerciseFrame" src=""></iframe>
+        </div>
+    </div>
+
+    <button id="music-btn" onclick="toggleMusic()">🎵</button>
+
+    <script src="js/scripts.js"></script>
+    <script>
+        function toggleMusic() {
+            const music = document.getElementById("background-music");
+            const btn = document.getElementById("music-btn");
+            if (music.paused) {
+                music.play().catch(() => {
+                    console.log("Clique no botão para ativar a música.");
+                });
+                btn.textContent = "🎵";
+            } else {
+                music.pause();
+                btn.textContent = "🔇";
+            }
+        }
+    </script>
+</body>
+
+</html>

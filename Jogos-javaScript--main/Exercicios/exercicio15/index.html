@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercício 15 - Mais Perto de 100</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(to right, #fdfdfd, #eeeeee);
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        
+        .container {
+            background: #fff;
+            padding: 40px;
+            border-radius: 14px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+            max-width: 480px;
+            width: 90%;
+        }
+        
+        h1 {
+            font-size: 1.6rem;
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+        
+        p {
+            font-size: 1rem;
+            margin-bottom: 20px;
+            color: #555;
+        }
+        
+        input[type="number"] {
+            padding: 12px;
+            font-size: 1rem;
+            width: 100%;
+            border-radius: 8px;
+            border: 1px solid #ccc;
+            margin-bottom: 12px;
+        }
+        
+        button {
+            padding: 12px 24px;
+            font-size: 1rem;
+            background-color: #6a1b9a;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            margin-top: 10px;
+        }
+        
+        button:hover {
+            background-color: #8e24aa;
+        }
+        
+        .result {
+            margin-top: 20px;
+            font-size: 1.1rem;
+            color: #444;
+            font-weight: 500;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Mais Perto de 100</h1>
+        <p>Digite três números:</p>
+        <input type="number" id="numero1" placeholder="Número 1" />
+        <input type="number" id="numero2" placeholder="Número 2" />
+        <input type="number" id="numero3" placeholder="Número 3" />
+        <button onclick="maisPertoDe100()">Ver Resultado</button>
+        <p class="result" id="resultado"></p>
+    </div>
+
+    <script>
+        function maisPertoDe100() {
+            const n1 = parseFloat(document.getElementById('numero1').value);
+            const n2 = parseFloat(document.getElementById('numero2').value);
+            const n3 = parseFloat(document.getElementById('numero3').value);
+            const resultado = document.getElementById('resultado');
+
+            if (isNaN(n1) || isNaN(n2) || isNaN(n3)) {
+                resultado.innerHTML = '⚠️ Por favor, insira todos os números.';
+                return;
+            }
+
+            const dist1 = Math.abs(n1 - 100);
+            const dist2 = Math.abs(n2 - 100);
+            const dist3 = Math.abs(n3 - 100);
+
+            let maisPerto = n1;
+            let menorDist = dist1;
+
+            if (dist2 < menorDist) {
+                maisPerto = n2;
+                menorDist = dist2;
+            }
+            if (dist3 < menorDist) {
+                maisPerto = n3;
+            }
+
+            resultado.innerHTML = `🎯 O número mais perto de 100 é: <strong>${maisPerto}</strong>`;
+        }
+    </script>
+</body>
+
+</html>

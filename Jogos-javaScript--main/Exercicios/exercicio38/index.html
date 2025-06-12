@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercício 38 - Múltiplos de 3</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(to right, #fdfdfd, #eeeeee);
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 20px;
+            flex-direction: column;
+        }
+        
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 20px;
+        }
+        
+        .container {
+            background: #fff;
+            padding: 30px;
+            border-radius: 14px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+            max-width: 400px;
+            width: 100%;
+        }
+        
+        button {
+            background-color: #6a1b9a;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            padding: 12px 24px;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            margin-bottom: 15px;
+            width: 100%;
+        }
+        
+        button:hover {
+            background-color: #8e24aa;
+        }
+        
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        
+        th,
+        td {
+            padding: 10px;
+            border: 1px solid #ccc;
+            text-align: center;
+        }
+        
+        th {
+            background-color: #6a1b9a;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Exercício 38</h1>
+    <div class="container">
+        <button onclick="imprimirMultiplos()">Imprimir Múltiplos de 3</button>
+        <table id="resultTable" style="display:none;">
+            <thead>
+                <tr>
+                    <th>Múltiplos de 3</th>
+                    <th>Múltiplos de 3</th>
+                    <th>Múltiplos de 3</th>
+                </tr>
+            </thead>
+            <tbody id="resultBody"></tbody>
+        </table>
+    </div>
+
+    <script>
+        function imprimirMultiplos() {
+            const resultBody = document.getElementById('resultBody');
+            const resultTable = document.getElementById('resultTable');
+            resultBody.innerHTML = '';
+
+            let row;
+            for (let i = 3; i <= 100; i += 3) {
+                if ((i - 3) % 9 === 0) {
+                    row = document.createElement('tr');
+                }
+                const cell = document.createElement('td');
+                cell.textContent = i;
+                row.appendChild(cell);
+                if (i % 9 === 0 || i === 99) {
+                    resultBody.appendChild(row);
+                }
+            }
+            resultTable.style.display = 'table';
+        }
+    </script>
+</body>
+
+</html>

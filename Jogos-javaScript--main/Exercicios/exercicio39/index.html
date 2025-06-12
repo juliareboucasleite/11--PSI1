@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercício 39 - Data Formatada</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(to right, #fdfdfd, #eeeeee);
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 20px;
+            flex-direction: column;
+        }
+        
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 20px;
+        }
+        
+        .container {
+            background: #fff;
+            padding: 30px;
+            border-radius: 14px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+            max-width: 300px;
+            width: 100%;
+        }
+        
+        input[type=date] {
+            width: 100%;
+            padding: 12px;
+            font-size: 1rem;
+            border-radius: 8px;
+            border: 1px solid #ccc;
+            margin-bottom: 15px;
+        }
+        
+        button {
+            background-color: #6a1b9a;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            padding: 12px 24px;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            width: 100%;
+        }
+        
+        button:hover {
+            background-color: #8e24aa;
+        }
+        
+        .result {
+            margin-top: 20px;
+            font-size: 1.2rem;
+            color: #444;
+            font-weight: 600;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Exercício 39</h1>
+    <div class="container">
+        <input type="date" id="dataInput" />
+        <button onclick="mostrarData()">Mostrar Data</button>
+        <div class="result" id="resultado"></div>
+    </div>
+
+    <script>
+        function mostrarData() {
+            const dataInput = document.getElementById('dataInput').value;
+            const resultado = document.getElementById('resultado');
+            if (!dataInput) {
+                resultado.textContent = 'Por favor, insira uma data válida.';
+                return;
+            }
+            const data = new Date(dataInput);
+            const dias = data.getDate();
+            const meses = [
+                "janeiro", "fevereiro", "março", "abril", "maio", "junho",
+                "julho", "agosto", "setembro", "outubro", "novembro", "dezembro"
+            ];
+            const ano = data.getFullYear();
+            const dataFormatada = `${dias} de ${meses[data.getMonth()]} de ${ano}`;
+            resultado.innerHTML = `A data formatada é:<br>${dataFormatada}`;
+        }
+    </script>
+</body>
+
+</html>

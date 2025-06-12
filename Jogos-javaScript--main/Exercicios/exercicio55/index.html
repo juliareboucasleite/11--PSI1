@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Tabela Dinâmica</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: var(--bg, #f4f4f4);
+            margin: 0;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 40px 20px;
+        }
+        
+        .container {
+            background: var(--card-bg, #fff);
+            max-width: 700px;
+            width: 100%;
+            padding: 30px 40px;
+            border-radius: 12px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            box-sizing: border-box;
+            text-align: center;
+            color: var(--text, #333);
+        }
+        
+        h1 {
+            margin-bottom: 20px;
+        }
+        
+        input {
+            padding: 12px;
+            font-size: 1rem;
+            width: 120px;
+            border-radius: 8px;
+            border: 1px solid #ccc;
+            margin: 5px;
+            box-sizing: border-box;
+        }
+        
+        button {
+            padding: 12px 25px;
+            background-color: #6a1b9a;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            font-size: 1rem;
+            margin-top: 10px;
+            width: 100%;
+            max-width: 300px;
+        }
+        
+        button:hover {
+            background-color: #8e24aa;
+        }
+        
+        #tabelaContainer table {
+            margin: 20px auto 0;
+            border-collapse: collapse;
+            width: 80%;
+            max-width: 700px;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        
+        #tabelaContainer th,
+        #tabelaContainer td {
+            border: 1px solid #ddd;
+            padding: 12px 20px;
+            text-align: center;
+            font-size: 1rem;
+        }
+        
+        #tabelaContainer th {
+            background-color: #6a1b9a;
+            color: white;
+            font-weight: 600;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Gerar Tabela</h1>
+        <input type="number" id="linhas" placeholder="Número de Linhas" min="1" />
+        <input type="number" id="colunas" placeholder="Número de Colunas" min="1" />
+        <button onclick="gerarTabela()">Criar Tabela</button>
+        <div id="tabelaContainer"></div>
+    </div>
+
+    <script>
+        function gerarTabela() {
+            const linhas = parseInt(document.getElementById('linhas').value);
+            const colunas = parseInt(document.getElementById('colunas').value);
+            if (isNaN(linhas) || linhas < 1 || isNaN(colunas) || colunas < 1) {
+                alert("Por favor, insira valores válidos.");
+                return;
+            }
+            let html = "<table><tbody>";
+            for (let i = 0; i < linhas; i++) {
+                html += "<tr>";
+                for (let j = 0; j < colunas; j++) {
+                    html += "<td></td>";
+                }
+                html += "</tr>";
+            }
+            html += "</tbody></table>";
+            document.getElementById('tabelaContainer').innerHTML = html;
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,123 @@
+<!DOCTYPE HTML>
+<!----Pego o Layout das grades de: https://github.com/gabriel-bto/jogo-da-velha/blob/24c7bbdb849567801258fedd1b5d00122e46ed61/index.html-->
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <title>Jogo do Galo</title>
+
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="meus_js/meus_css/style.css">
+
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+</head>
+
+<body class="is-preload">
+
+    <!-- Header -->
+    <header id="header">
+        <a href="index.html" class="title">Índice</a>
+    </header>
+
+    <!-- Wrapper -->
+    <div id="wrapper">
+        <!-- Main -->
+        <section id="main" class="wrapper">
+            <div class="inner">
+                <h1 class="major">Jogo do Galo!</h1>
+
+                <!-- Contêiner Flexível -->
+                <div class="flex-container">
+                    <!-- Área do Jogo (Esquerda) -->
+                    <div class="game-area">
+                        <div class="grid">
+                            <div class="grid-celulas"></div>
+                            <div class="grid-celulas"></div>
+                            <div class="grid-celulas"></div>
+                            <div class="grid-celulas"></div>
+                            <div class="grid-celulas"></div>
+                            <div class="grid-celulas"></div>
+                            <div class="grid-celulas"></div>
+                            <div class="grid-celulas"></div>
+                            <div class="grid-celulas"></div>
+                        </div>
+                    </div>
+
+                    <!-- Área de Controles (Direita) -->
+                    <div class="controls-area">
+                        <!-- Configurações do Jogo -->
+                        <div class="settings-panel">
+                            <!-- Seleção de Dificuldade -->
+                            <div class="difficulty-selector">
+                                <h3>Dificuldade:</h3>
+                                <div class="difficulty-buttons">
+                                    <button class="difficulty-btn" data-difficulty="easy">Fácil</button>
+                                    <button class="difficulty-btn" data-difficulty="medium">Médio</button>
+                                    <button class="difficulty-btn" data-difficulty="hard">Difícil</button>
+                                </div>
+                            </div>
+
+                            <!-- Placar -->
+                            <div class="placar">
+                                <h3>Placar</h3>
+                                <table>
+                                    <tr>
+                                        <th>Jogador X</th>
+                                        <th>Jogador O</th>
+                                    </tr>
+                                    <tr>
+                                        <td id="pontosX">0</td>
+                                        <td id="pontosO">0</td>
+                                    </tr>
+                                </table>
+                            </div>
+
+                            <button id="start-game" class="start-button">Começar Jogo</button>
+                        </div>
+
+                        <!-- Tempo ao lado -->
+                        <div class="side-panel">
+                            <div class="placar_Tempo">
+                                <h3>Tempo</h3>
+                                <div class="tempo-display">
+                                    <span id="tempo">5</span>
+                                    <span class="tempo-label">segundos</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Mensagem -->
+                        <div class="mensagem">
+                            <p class="mensagem-texto"></p>
+                            <button class="mensagem-button">Reiniciar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer -->
+    <footer id="footer" class="wrapper alt">
+        <div class="inner">
+            <ul class="menu">
+                <li>&copy; Feito por Julia Rebouças Leite.</li>
+            </ul>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="meus_js/main.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercício 41 - Dia da Semana</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(to right, #fdfdfd, #eeeeee);
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        
+        .container {
+            background: #fff;
+            padding: 30px;
+            border-radius: 14px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+            max-width: 400px;
+            width: 100%;
+            text-align: left;
+        }
+        
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        
+        input[type=date] {
+            width: 100%;
+            padding: 12px;
+            font-size: 1rem;
+            border-radius: 8px;
+            border: 1px solid #ccc;
+            margin-bottom: 15px;
+            box-sizing: border-box;
+        }
+        
+        button {
+            background-color: #6a1b9a;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            padding: 12px;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            width: 100%;
+        }
+        
+        button:hover {
+            background-color: #8e24aa;
+        }
+        
+        .message {
+            margin-top: 20px;
+            font-weight: 600;
+            font-size: 1.1rem;
+            color: purple;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Dia da Semana</h1>
+        <label for="data">Digite uma data:</label>
+        <input type="date" id="data" />
+        <button onclick="mostrarDiaSemana()">Verificar Dia da Semana</button>
+        <div class="message" id="resultado"></div>
+    </div>
+
+    <script>
+        function mostrarDiaSemana() {
+            const dataInput = document.getElementById('data').value;
+            const resultadoDiv = document.getElementById('resultado');
+
+            if (!dataInput) {
+                resultadoDiv.textContent = "Por favor, insira uma data.";
+                resultadoDiv.style.color = "red";
+                return;
+            }
+
+            const data = new Date(dataInput);
+            const hoje = new Date();
+            const diasDaSemana = ["domingo", "segunda-feira", "terça-feira", "quarta-feira", "quinta-feira", "sexta-feira", "sábado"];
+
+            const diaSemana = diasDaSemana[data.getUTCDay()];
+
+            if (data < hoje) {
+                resultadoDiv.textContent = `A data ${dataInput} foi ${diaSemana}.`;
+            } else {
+                resultadoDiv.textContent = `A data ${dataInput} será ${diaSemana}.`;
+            }
+            resultadoDiv.style.color = "purple";
+        }
+    </script>
+</body>
+
+</html>

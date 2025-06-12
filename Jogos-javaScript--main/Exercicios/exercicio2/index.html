@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercício 2 - Confirmação</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(to right, #fdfdfd, #f3f3f3);
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .container {
+            background: white;
+            padding: 40px;
+            border-radius: 14px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            max-width: 500px;
+        }
+        
+        h2 {
+            margin-bottom: 20px;
+            color: #2c2c2c;
+        }
+        
+        button {
+            padding: 14px 30px;
+            font-size: 16px;
+            background-color: #6a1b9a;
+            color: white;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        
+        button:hover {
+            background-color: #8e24aa;
+        }
+        
+        .resposta {
+            margin-top: 25px;
+            font-size: 1.1rem;
+            font-weight: 500;
+            color: #6a1b9a;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h2>Exercício 2: Confirmação Interativa</h2>
+        <p>Deseja continuar a realizar os exercícios?</p>
+        <button onclick="responder(true)">Sim</button>
+        <button onclick="responder(false)" style="background-color: #e53935; margin-left: 10px;">Não</button>
+        <div class="resposta" id="resposta"></div>
+    </div>
+
+    <script>
+        function responder(decisao) {
+            const resposta = document.getElementById("resposta");
+            if (decisao) {
+                resposta.innerText = "Boa escolha, visitante! Vamos continuar 💪";
+            } else {
+                resposta.innerText = "Visitante... Já chega de JavaScript por hoje 😅";
+            }
+        }
+    </script>
+</body>
+
+</html>

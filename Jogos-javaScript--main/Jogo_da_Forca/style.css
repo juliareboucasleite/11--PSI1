@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #f9f9f9;
+    color: #2c2c2c;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    padding: 40px 20px;
+}
+
+h1 {
+    font-weight: 600;
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+    color: #4a148c;
+}
+
+.game-container {
+    background: white;
+    border-radius: 15px;
+    padding: 30px;
+    max-width: 480px;
+    width: 100%;
+    box-shadow: 0 0 20px rgba(74, 20, 140, 0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.status {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 20px;
+    font-size: 1.1rem;
+}
+
+.word {
+    font-size: 2rem;
+    letter-spacing: 10px;
+    margin-bottom: 20px;
+    user-select: none;
+    min-height: 3rem;
+}
+
+.hint {
+    font-style: italic;
+    color: #7b52b1;
+    margin-bottom: 25px;
+    user-select: none;
+}
+
+#forcaCanvas {
+    border: 2px solid #b39ddb;
+    border-radius: 8px;
+    background: #ede7f6;
+    margin-bottom: 20px;
+    width: 250px;
+    height: 300px;
+}
+
+.keyboard {
+    display: grid;
+    grid-template-columns: repeat(13, 1fr);
+    gap: 8px;
+    justify-items: center;
+    width: 100%;
+}
+
+.key {
+    background: #7b52b1;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 8px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    user-select: none;
+    box-shadow: 0 0 5px #9d79ff;
+    transition: background-color 0.3s;
+}
+
+.key:disabled {
+    background: #ccc;
+    color: #555;
+    cursor: default;
+    box-shadow: none;
+}
+
+.key:hover:not(:disabled) {
+    background: #9d79ff;
+}
+
+.message {
+    margin-top: 25px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-align: center;
+    min-height: 28px;
+    user-select: none;
+}
+
+.restart-btn {
+    margin-top: 30px;
+    background: #9d79ff;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 20px;
+    font-size: 1.2rem;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 0 10px #9d79ffaa;
+    transition: background-color 0.3s;
+}
+
+.restart-btn:hover {
+    background-color: #7b52b1;
+}

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercício 28 - Diferença entre Dois Valores</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(to right, #fdfdfd, #eeeeee);
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 20px;
+        }
+        
+        .container {
+            background: #fff;
+            padding: 40px;
+            border-radius: 14px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+            max-width: 400px;
+            width: 100%;
+        }
+        
+        h1 {
+            font-size: 1.8rem;
+            color: #2c3e50;
+            margin-bottom: 20px;
+        }
+        
+        .input-group {
+            margin-bottom: 15px;
+            text-align: left;
+        }
+        
+        label {
+            font-size: 1rem;
+            color: #333;
+        }
+        
+        input[type=number] {
+            width: 100%;
+            padding: 12px;
+            font-size: 1rem;
+            border-radius: 8px;
+            border: 1px solid #ccc;
+            margin-top: 5px;
+            box-sizing: border-box;
+        }
+        
+        button {
+            background-color: #6a1b9a;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            padding: 12px 24px;
+            font-size: 1rem;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            width: 100%;
+        }
+        
+        button:hover {
+            background-color: #8e24aa;
+        }
+        
+        .result {
+            margin-top: 20px;
+            font-size: 1.2rem;
+            font-weight: 600;
+            color: #444;
+            word-break: break-word;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Calcular Diferença</h1>
+        <div class="input-group">
+            <label for="valor1">Primeiro valor (inteiro):</label>
+            <input type="number" id="valor1" placeholder="Ex: 60" />
+        </div>
+        <div class="input-group">
+            <label for="valor2">Segundo valor (inteiro):</label>
+            <input type="number" id="valor2" placeholder="Ex: 20" />
+        </div>
+        <button onclick="calcularDiferenca()">Calcular Diferença</button>
+        <div class="result" id="resultado"></div>
+    </div>
+
+    <script>
+        function calcularDiferenca() {
+            const valor1 = parseInt(document.getElementById('valor1').value);
+            const valor2 = parseInt(document.getElementById('valor2').value);
+            const resultado = document.getElementById('resultado');
+
+            if (isNaN(valor1) || isNaN(valor2)) {
+                resultado.textContent = "Por favor, insira valores inteiros válidos.";
+                return;
+            }
+
+            const maior = Math.max(valor1, valor2);
+            const menor = Math.min(valor1, valor2);
+            const diferenca = maior - menor;
+
+            resultado.textContent = `Diferença: ${diferenca}`;
+        }
+    </script>
+</body>
+
+</html>
